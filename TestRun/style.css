@@ -1,3 +1,28 @@
 body{
-    background-color: gray;
+    margin: 0;
+    padding: 0;
+    font-size: 2.5vmin;
+    background-color: grey;
+}
+
+.container{
+    margin: 0px;
+    background-color: grey;
+    display: flex;
+}
+
+.box1{
+    background-color: rgb(0, 225, 255);;
+    border: 2px solid black;
+    width: 25%;
+}
+
+.box2{
+    background-color: white;
+    border: 2px solid black;
+    width: 75%;
+}
+
+.navbar{
+    list-style-type: none;
 }
