@@ -1,5 +1,6 @@
 .logo {
     grid-area: lg;
+    width: 70%;
 }
 
 .phone{
@@ -8,6 +9,9 @@
 
 .menu{
     grid-area: me;
+    width: 150%;
+    position: relative;
+    right: 50%;
 }
 
 .imageslideshow{
