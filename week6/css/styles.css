@@ -1,0 +1,84 @@
+body{
+    background-color: grey;
+}
+
+#container{
+    position: relative;
+    font-size: 1.3vw;
+}
+
+.topnav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+}
+
+.floatnavi {
+    display: flex;
+}
+
+.topnav a {
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: flex;
+}
+
+.topnav a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.middlebox{
+    position: absolute;
+    top: 40%;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottomleft{
+    display: flex;
+    padding: 10px;
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    color: white;
+}
+
+.bottomleft img{
+    position: relative;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+.bottomright{
+    width: 400px;
+    padding: 10px;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    color: white;
+    border: 1px dashed white;
+}
+
+.boldtext{
+    font-weight: bold;
+}
+
+#redtext{
+    color: red;
+}

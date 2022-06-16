@@ -1,0 +1,74 @@
+.logo {
+    position: relative;
+    width: 50%;
+    grid-area: lg;
+    min-height: 80px;
+}
+
+.phone{
+    position: relative;
+    width: 100%;
+    top: 20%;
+    grid-area: ph;
+    max-height: 30px;
+}
+
+.menu{
+    grid-area: me;
+}
+
+.imageslideshow{
+    grid-area: is;
+}
+
+.feat1{
+    grid-area:f1;
+}
+
+.feat2{
+    grid-area: f2;
+}
+
+.feat3{
+    grid-area: f3;
+}
+
+.feat4{
+    grid-area: f4;
+}
+
+.textcontent{
+    grid-area: tc;
+}
+
+.sidebar{
+    grid-area: sb;
+}
+
+.footer{
+    grid-area: fo;
+}
+
+.grid-container{
+    position: relative;
+    display: grid;
+    grid-template-areas: 
+    'lg lg lg lg lg lg ph ph'
+    'me me me me me me me me'
+    'is is is is is is is is'
+    'f1 f1 f2 f2 f3 f3 f4 f4'
+    'tc tc tc tc tc sb sb sb'
+    'fo fo fo fo fo fo fo fo'
+    ;
+    gap: 10px;
+    background-color: grey;
+    padding: 10px;
+}
+
+.grid-container > div{
+    background-color: rgb(212, 212, 212);
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.5vw;
+}

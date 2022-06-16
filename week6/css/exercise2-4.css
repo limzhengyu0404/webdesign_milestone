@@ -1,0 +1,53 @@
+.logo {
+    grid-area: lg;
+}
+.blogmenu{
+    grid-area: bm;
+}
+
+.phone{
+    grid-area: ph;
+}
+
+.menu{
+    grid-area: me;
+}
+
+.imageslideshow{
+    grid-area: is;
+}
+
+.textcontent{
+    grid-area: tc;
+}
+
+.sidebar{
+    grid-area: sb;
+}
+
+.footer{
+    grid-area: fo;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    'bm bm bm bm bm bm bm bm'
+    'lg lg lg lg lg ph ph ph'
+    'lg lg lg lg lg me me me'
+    'is is is is is is sb sb'
+    'tc tc tc tc tc tc sb sb'
+    'fo fo fo fo fo fo fo fo'
+    ;
+    gap: 10px;
+    background-color: grey;
+    padding: 10px;
+}
+
+.grid-container > div{
+    background-color: rgb(212, 212, 212);
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.5vw;
+}

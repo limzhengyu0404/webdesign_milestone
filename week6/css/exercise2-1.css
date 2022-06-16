@@ -1,0 +1,58 @@
+.logo {
+    grid-area: lg;
+}
+
+.menu{
+    grid-area: me;
+}
+
+.imageslideshow{
+    grid-area: is;
+}
+
+.feat1{
+    grid-area:f1;
+}
+
+.feat2{
+    grid-area: f2;
+}
+
+.feat3{
+    grid-area: f3;
+}
+
+.sidebar{
+    grid-area: sb;
+}
+
+.textcontent{
+    grid-area: tc;
+}
+
+.footer{
+    grid-area: fo;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'lg lg me me me me'
+    'is is is is is is'
+    'f1 f1 f2 f2 f3 f3'
+    'sb sb tc tc tc tc'
+    'fo fo fo fo fo fo'
+    ;
+    gap: 10px;
+    background-color: grey;
+    padding: 10px;
+}
+
+.grid-container > div{
+    background-color: rgb(212, 212, 212);
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.5vw;
+    min-height: 80px;
+}
