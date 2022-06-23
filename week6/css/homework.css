@@ -517,7 +517,7 @@ input[type=text], select {
     }
     
     .navi a{
-        width: 90%;
+        width: 95%;
         font-size: 3vw;
         color: rgb(0, 0, 0);
         display: flex;
@@ -532,7 +532,7 @@ input[type=text], select {
     }
     
     .box4{
-        margin-top: 23%;
+        margin-top: 30%;
         text-align: center;
         display: block;
         width: 100%;
