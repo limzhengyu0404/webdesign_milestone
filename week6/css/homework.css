@@ -118,15 +118,16 @@ body{
 }
 
 .button{
-    position: relative;
+    display: flex;
     margin: 20px;
-    text-align: center;
-    width: 15vw;
-    height: 6vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
     color: white;
-    font-size: 1vw;
-    background-image: url("../HomeworkImages/12.png");
-    background-size: 100% 100%;
+    font-size: 10px;
+    background-image: linear-gradient(to right, blue, rgb(33, 185, 236));
 }
 
 .button span{
@@ -531,7 +532,7 @@ input[type=text], select {
     }
     
     .box4{
-        margin-top: 30%;
+        margin-top: 40%;
         text-align: center;
         display: block;
         width: 100%;
@@ -560,30 +561,7 @@ input[type=text], select {
     }
     
     .button{
-        position: relative;
-        text-align: center;
-        width: 100%;
-        color: rgb(0, 0, 0);
-        font-size: 5vw;
-        background-image: none;
-    }
-    
-    .button span{
-        padding: 10px;
-        border: 3px solid rgb(112, 134, 255);
-        border-radius: 30px;
-        position: relative;
-        top: 12px;
-    }
-
-    .button span:hover{
-        background-color: rgb(112, 134, 255);
-        color: white;
-        padding: 10px;
-        border: 3px solid rgb(112, 134, 255);
-        border-radius: 30px;
-        position: relative;
-        top: 12px;
+        margin: 10% auto;
     }
 
     /*PAGE 2*/
