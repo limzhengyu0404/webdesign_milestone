@@ -130,11 +130,6 @@ body{
     background-image: linear-gradient(to right, blue, rgb(33, 185, 236));
 }
 
-.button span{
-    position: relative;
-    top: 12px;
-}
-
 .mouse{
     margin: auto;
     width: 100%;
@@ -305,7 +300,7 @@ body{
 
 .gallery2font3{
     color: rgb(63, 63, 197);
-    margin: auto;
+    margin: 10% auto;
     font-weight: 900;
     font-size: 20px;
 }
@@ -402,16 +397,16 @@ input[type=text], select {
 }
 
 .button2{
-    position: relative;
+    display: flex;
     margin: 20px;
-    text-align: center;
-    width: 10vw;
-    height: 6vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
     color: white;
-    font-size: 1vw;
-    background-image: url("../HomeworkImages/12.png");
-    background-size: 100% 100%;
-    background-attachment:local;
+    font-size: 10px;
+    background-image: linear-gradient(to right, blue, rgb(33, 185, 236));
 }
 
 .button2 span{
@@ -472,6 +467,10 @@ input[type=text], select {
 
 .box6special{
     margin-top: 10%;
+}
+
+#box6down{
+    margin-top: 6%;
 }
 
 @media screen and (max-width:800px) {
@@ -698,21 +697,8 @@ input[type=text], select {
     }
     
     .button2{
-        position: relative;
-        margin: 20px;
-        text-align: center;
-        width: 10vw;
-        height: 6vh;
-        color: white;
-        font-size: 10px;
-        background-image: url("../HomeworkImages/12.png");
-        background-size: 100% 100%;
-        background-attachment:local;
-    }
-    
-    .button2 span{
-        position: relative;
-        top: 12px;
+        margin-top: 6%;
+        width: 80px;
     }
     
     .containerpage5bottom{
