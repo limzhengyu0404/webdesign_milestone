@@ -287,6 +287,10 @@ body{
     max-height: 300px;
 }
 
+.gallery2 a{
+    text-decoration: none;
+}
+
 .gallery2font1{
     margin-top: 6%;
     font-weight: 600;
@@ -301,15 +305,13 @@ body{
 
 .gallery2font3{
     color: rgb(63, 63, 197);
-    margin-top: 15%;
+    margin: auto;
     font-weight: 900;
     font-size: 20px;
 }
 
 .gallery2button{
-    position: absolute;
-    left: 33%;
-    bottom: 10%;
+    margin: 10% auto;
     text-align: center;
     width: 100px;
     height: 30px;
@@ -684,22 +686,7 @@ input[type=text], select {
         font-weight: 900;
         font-size: 30px;
     }
-    
-    .gallery2button{
-        position: absolute;
-        left: 38%;
-        bottom: 10%;
-        text-align: center;
-        width: 100px;
-        height: 30px;
-        color: grey;
-        font-size: 15px;
-        border: 2px solid black;
-        background-image: none;
-        border-radius: 100px;
-    }
-    
-    
+        
     .pagination {
         display: none;
     }
