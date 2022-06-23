@@ -489,7 +489,6 @@ input[type=text], select {
     }
     
     .box3{
-        background-color: rgb(224, 224, 248);
         text-align: center;
         display: block;
         width: 100%;
@@ -510,7 +509,7 @@ input[type=text], select {
     .navi{
         background-color: rgb(155, 155, 236);
         width: 100%;
-        margin-top: 0%;
+        margin-top: 5%;
         margin-right: 0%;
         display: block;
         float: left;
