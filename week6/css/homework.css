@@ -86,6 +86,7 @@ body{
 }
 
 .box4{
+    margin-top: 10%;
     position: relative;
     display: flex;
     width: 100%;
