@@ -136,9 +136,8 @@ body{
 }
 
 .mouse{
-    position: relative;
+    margin: auto;
     width: 100%;
-    bottom: 10%;
 }
 
 .mouse img{
