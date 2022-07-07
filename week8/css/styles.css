@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#center{
+    margin-top: 2%;
+    text-align: center;
+}
+
+fieldset{
+    padding: 5%;
+    background-color: #DDF4EE;
+}
+
+legend{
+    color: black;
+}
+
+h1{
+    color: #375B44;
+    font-weight: 500;
+}
+
+.form1{
+    color: #678A75;
+    display: block;
+    padding: 5%;
+    width: 50%;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.genderbox{
+    margin: 3% 0%;
+}
+
+.column input[type=text], select{
+    width: 49%;
+}
+
+.column{
+    justify-content: space-between;
+    display: flex;
+}
+
+input[type=submit]{
+    color: white;
+    background-color: #23622B;
+    border: 1px solid #23622B;
+    border-radius: 50px;
+    padding: 2% 5%;
+}
