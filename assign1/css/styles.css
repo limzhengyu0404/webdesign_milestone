@@ -5,7 +5,7 @@ body{
 }
 
 .container{
-    background-color: grey;
+    background-color: #1B208D;
     width: auto;
     color: white;
 }
@@ -178,7 +178,7 @@ body{
 }
 
 .homecontainer1-box2 div{
-    font-size: 3vw;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -211,6 +211,10 @@ body{
         right: 2%;
         top: 2%;
         display: block;
+    }
+
+    .homecontainer1-box2 div{
+        font-size: 30px;
     }
 /*
     .sticky{
@@ -723,5 +727,65 @@ textarea{
         width: 100%;
         justify-content:space-evenly;
     }
+}
 
+/*About Me Container------------------------------------------------------------------------------------------------------*/
+.aboutcontainer{
+    padding: 3% 0% 0% 0%;
+    background-color: #1B208D;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.aboutcontainer .font-style4{
+    line-height: 250%;
+    font-weight: 600;
+}
+
+.aboutbox1 img{
+    width: 70%;
+}
+
+.aboutbox2{
+    text-align: left;
+    margin: 3% 20%;
+}
+
+.aboutbox3{
+    margin: 5% 6.5%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.aboutbox4{
+    text-align: left;
+    display: block;
+    margin: 3% 20%;
+}
+
+.aboutbox5{
+    background-image: url(../images/background02.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    text-align: left;
+    margin: 3% 20%;
+}
+
+@media screen and (max-width: 800px){
+
+    .aboutcontainer .font-style4{
+        font-size: 15px;
+        line-height: 250%;
+        font-weight: 600;
+    }
+    
+    .aboutcontainer .font-style2{
+        font-size: 30px;
+    }
+    
+    .aboutbox5{
+        background-size: 15%;
+    }
 }
