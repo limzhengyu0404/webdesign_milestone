@@ -21,19 +21,30 @@
                 <div class="homecontainer1-box1-1">
                     <img src="assign1/images/logo.png" alt="">
                 </div>
-
                 <div class="topnav" id="myTopnav">
-                    <a href="#home">About</a>
-                    <a href="#news">Portfolio</a>
-                    <a href="#contact">Achivement</a>
-                    <a href="#about" class="nodisplay">Contact</a>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        <i id="icon" class="fa-solid fa-water"></i>
+                    <a href="#home">Home</a>
+                    <a href="#news">News</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#about">About</a>
+                    <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                        <i class="fa-solid fa-water"></i>
                     </a>
+                </div>
+            
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                        <i class="fa-solid fa-water"></i>
+                    </a>
+                    <div class="overlay-content">
+                        <a href="#">Home</a>
+                        <a href="#">News</a>
+                        <a href="#">Contact</a>
+                        <a href="#">About</a>
+                    </div>
                 </div>
 
                 <div class="homecontainer1-box1-2">
-                    <a href="#" class="nodeco"><div class="button">CONTACT</div></a>
+                    <a href="#" class="nodisplay"><div class="button">CONTACT</div></a>
                 </div>
             </div>
 
@@ -208,24 +219,50 @@
                 </div>
             </div>
         </div>
+
+        <!--Home container 6-->
+        <div class="homecontainer6">
+            <div class="homecontainer6-box1">
+                <div class="homecontainer6-box1-1">
+                    <p class="font-style3">Personal</p>
+                </div>
+                <div class="homecontaienr6-box1-1">
+                    <p class="font-style1">MENU</p>
+                    <p class="font-style4">About</p>
+                    <p class="font-style4">Achivement</p>
+                    <p class="font-style4">Contact</p>
+                </div>
+                <div class="homecontainer6-box1-1">
+                    <p class="font-style1">CONTACT</p>
+                    <p class="font-style4">+60 137272326</p>
+                    <p class="font-style4">limzhengyu0404@e.newera.edu.my</p>
+                    <p class="font-style4">Malaysia</p>
+                </div>
+                <div class="homecontainer6-box1-1">
+                    <a href="#"><img src="assign1/images/icon6.png" alt=""></a>
+                    <a href="#"><img src="assign1/images/icon7.png" alt=""></a>
+                    <a href="#"><img src="assign1/images/icon8.png" alt=""></a>
+                </div>
+            </div>
+            <hr color="white" class="hr1">
+            <div class="homecontainer6-box2">
+                <div class="homecontainer6-box2-1">Copyright @ 2022 Lim. All Rights Reserved</div>
+                <div class="homecontainer6-box2-2">
+                    <div>Terms of Use</div>
+                    <div>Privacy Policy</div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
     <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-
-            var icon = document.getElementById("icon");
-            if (icon.className === "fa-solid fa-water") {
-                icon.className = "fa-brands fa-android";
-            } else {
-                icon.className = "fa-solid fa-water";
-            }
+        function openNav() {
+          document.getElementById("myNav").style.height = "50%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
         }
     </script>
 </body>
