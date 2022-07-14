@@ -15,13 +15,11 @@ body {
 }
 
 .button {
-    padding: 5px;
+    padding: 10px 10px;
     display: flex;
     margin: 20px;
     justify-content: center;
     align-items: center;
-    width: 12vw;
-    height: 50px;
     color: white;
     font-size: 1.5vw;
     font-weight: 900;
@@ -35,23 +33,23 @@ body {
 }
 
 .font-style1 {
-    font-size: 40px;
+    font-size: 3vw;
     font-weight: 300;
     color: rgb(94, 215, 255);
 }
 
 .font-style2 {
-    font-size: 70px;
+    font-size: 5vw;
     font-weight: 800;
 }
 
 .font-style3 {
-    font-size: 35px;
+    font-size: 3vw;
     font-weight: 400;
 }
 
 .font-style4 {
-    font-size: 25px;
+    font-size: 2vw;
     font-weight: 300;
 }
 
@@ -172,7 +170,8 @@ body {
 }
 
 .homecontainer1-box2 img {
-    width: 30%;
+    width: 30vw;
+    min-width: 20vw;
     background-color: #1179FF;
     border-radius: 50px;
     margin: 1% 0%;
@@ -233,7 +232,7 @@ body {
 }
 
 .homecontainer2-box1 {
-    line-height: 550%;
+    margin-top: 3%;
     display: flex;
     padding-top: 1%;
     padding-left: 5%;
@@ -270,10 +269,11 @@ body {
 .gallery-box img {
     border: 1px solid #000;
     box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
-    max-width: 400px;
+    max-width: 30vw;
 }
 
 .gallery-box-position {
+    width: 100%;
     color: white;
     position: absolute;
     bottom: 10%;
@@ -281,22 +281,23 @@ body {
 }
 
 .gallery-box-tag {
+    width: 5vw;
+    padding: 2% 0;
     display: flex;
     margin: 20px;
     justify-content: center;
     align-items: center;
     border-radius: 40px;
-    width: 150px;
-    height: 50px;
     color: black;
-    font-size: 20px;
+    min-width: 30%;
+    font-size: 15px;
     font-weight: 700;
     background-color: white;
 }
 
 .gallery-box-font {
-    margin-left: 15%;
-    font-size: 30px;
+    margin-left: 5%;
+    font-size: 1.5vw;
     font-weight: 800;
 }
 
@@ -307,12 +308,6 @@ body {
         text-align: left;
         align-items: center;
         display: block;
-    }
-
-    .homecontainer2-box1-2 .button {
-        margin-left: 0;
-        width: 200%;
-        font-size: 2vw;
     }
 
     .homecontainer2-box2 {
@@ -651,7 +646,7 @@ textarea {
 .homecontainer6-box1 {
     margin-left: 3%;
     display: flex;
-    width: 100%;
+    width: 90%;
     justify-content: space-evenly;
 }
 
@@ -684,19 +679,9 @@ textarea {
 
 .homecontainer6-box2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0% 10%;
     padding-bottom: 2%;
-}
-
-.homecontainer6-box2-1 {
-    width: 100%;
-}
-
-.homecontainer6-box2-2 {
-    width: 40%;
-    justify-content: space-between;
-    display: flex;
 }
 
 @media screen and (max-width: 800px) {
@@ -718,18 +703,6 @@ textarea {
 
     .homecontainer6-box1-1 img {
         margin-top: 5%;
-    }
-
-    .homecontainer6-box2 {
-        margin-top: 3%;
-        text-align: center;
-        display: block;
-    }
-
-    .homecontainer6-box2-2 {
-        margin-top: 3%;
-        width: 100%;
-        justify-content: space-evenly;
     }
 }
 
