@@ -182,17 +182,6 @@ body {
     font-weight: bold;
 }
 
-@media screen and (max-width: 500px){
-    .icon i{
-        position: absolute;
-        top: 20%;
-        right: 2%;
-        border: 1px solid white;
-        padding: 10px;
-        font-size: 4vw;
-    }
-}
-
 @media screen and (max-width: 800px) {
     .homecontainer1-box1 {
         text-align: center;
@@ -265,6 +254,16 @@ body {
     display: flex;
 }
 
+.homecontainer2-box1-2 .button{
+    white-space: nowrap;
+    padding: 20px 20px;
+    margin-right: 5%;
+    color: white;
+    font-size: vw;
+    font-weight: 900;
+    border: 1px solid white;
+}
+
 .homecontainer2-box2 {
     margin-left: 1%;
 }
@@ -292,7 +291,7 @@ body {
     width: 100%;
     color: white;
     position: absolute;
-    bottom: 10%;
+    bottom: 15%;
     left: 5%;
 }
 
@@ -300,19 +299,18 @@ body {
     width: 5vw;
     padding: 2% 0;
     display: flex;
-    margin: 20px;
+    margin-bottom: 10px;
     justify-content: center;
     align-items: center;
     border-radius: 40px;
     color: black;
     min-width: 30%;
-    font-size: 15px;
+    font-size: 2vw;
     font-weight: 700;
     background-color: white;
 }
 
 .gallery-box-font {
-    margin-left: 5%;
     font-size: 1.5vw;
     font-weight: 800;
 }
@@ -328,6 +326,15 @@ body {
 
     .homecontainer2-box2 {
         margin-left: 0%;
+    }
+
+    .homecontainer2-box1-2 .button{
+        padding: 10px 10px;
+        margin: 0;
+        color: white;
+        font-size: 2vw;
+        font-weight: 900;
+        border: 1px solid white;
     }
 }
 
