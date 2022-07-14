@@ -646,6 +646,7 @@ textarea{
 }
 
 .homecontainer6-box1{
+    margin-left: 3%;
     display: flex;
     width: 100%;
     justify-content: space-evenly;
