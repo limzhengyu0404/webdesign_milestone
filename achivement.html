@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="assign1/css/styles.css">
+    <link rel="icon" type="image/x-icon" href="assign1/images/favicon.ico">
+    <script src="https://kit.fontawesome.com/db1769a753.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="homecontainer1">
+            <div class="homecontainer1-box1">
+                <div class="homecontainer1-box1-1">
+                    <img src="assign1/images/logo.png" alt="">
+                </div>
+                <div class="topnav" id="myTopnav">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="#contact">Portfolio</a>
+                    <a href="#about">Achivement</a>
+                    <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                        <i class="fa-solid fa-list"></i>
+                    </a>
+                </div>
+
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                    <div class="overlay-content">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="#">Portfolio</a>
+                        <a href="#">Achivement</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+
+                <div class="homecontainer1-box1-2">
+                    <a href="#" class="nodeco">
+                        <div class="button">CONTACT</div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="homecontainer1-box2">
+                <p class="font-style2">About Me</p><br>
+                <pclass="font-style4">NEUC student who currently studying Bachelor Degree in Software Engineering, and
+                    also a competitive gamer!esign, business understanding.</p>
+            </div>
+        </div>
+
+        <!--Achivement container 1-->
+
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+</body>
+
+</html>
