@@ -59,6 +59,13 @@ body {
     margin: 2% auto;
 }
 
+.hr2{
+    border: none;
+    border-left: 1px solid white;
+    height: 200px;
+    width: 2px;  
+}
+
 @media screen and (max-width: 800px) {
     .font-style1 {
         font-size: 6vw;
@@ -936,6 +943,10 @@ textarea {
     justify-content: space-evenly;
 }
 
+.gallery3 a{
+    text-decoration: none;
+}
+
 .gallery3-box {
     position: relative;
     margin: 10px;
@@ -945,29 +956,26 @@ textarea {
     border: 1px solid #000;
     box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
     max-width: 30vw;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 .gallery3-box-position {
+    background-color: rgb(45, 135, 245);
     width: 100%;
-    color: white;
-    position: absolute;
-    bottom: 15%;
-    left: 5%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 .gallery3-box-tag {
-    width: 5vw;
     padding: 2% 0;
     display: flex;
-    margin-bottom: 10px;
     justify-content: center;
     align-items: center;
-    border-radius: 40px;
     color: black;
-    min-width: 30%;
     font-size: 2vw;
     font-weight: 700;
-    background-color: white;
 }
 
 .gallery3-box-font {
@@ -975,8 +983,44 @@ textarea {
     font-weight: 800;
 }
 
-.portfoliocontainer1-box3{
+.gallery3-prompt{
+    font-size: 3vw;
+    line-height: 200%;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
 
+.gallery3-prompt a{
+    text-decoration: none;
+    color: white;
+}
+
+.disimageimage {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.gallery3-box:hover .disimage {
+    opacity: 0.3;
+}
+  
+.gallery3-box:hover .gallery3-prompt {
+    opacity: 1;
+}
+
+.gallery3-prompt a:hover{
+    color: rgb(0, 251, 255);
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 500px){
@@ -991,57 +1035,219 @@ textarea {
     }
 
     .gallery3-box-tag {
-        width: 5vw;
-        padding: 2% 0;
-        display: flex;
-        margin-bottom: 10px;
-        min-width: 30%;
         font-size: 5vw;
     }
-    
-    .gallery3-box-font {
-        font-size: 5vw;
+
+    .gallery3-prompt{
+        font-size: 6vw;
     }
 }
 
-.overlay2 {
-    height: 0%;
+/*Achivement page ------------------------------------------------------------------------------------------------------------------------------------------*/
+.achivementcontainer1{
+    display: block;
+    background-color: #1B208D;
+    text-align: center;
+}
+
+.achivementcontainer1-box1{
+    font-size: 1.5vw;
+    line-height: 250%;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.achivementcontainer1-box1 p{
+    text-decoration: underline;
+}
+
+.achivementcontainer1-box1-1{
+    display: block;
+    margin: 1% 3%;
+    font-size: 2vw;
+}
+
+.achivementcontainer1-box1-2{
+    display: block;
+    margin: 1% 3%;
+    font-size: 2vw
+}
+
+.achivementcontainer1-box2{
+}
+
+.achivementcontainer1-box2 img{
+    width: 80%;
+}
+
+.achivementcontainer1-box3{
+    margin: 1% 10%;
+}
+
+/*achivement page container2*/
+.achivementcontainer2{
+    margin: 5% 2%;
+    display: block;
+    background-color: #1B208D;
+    text-align: center;
+}
+
+.achivementcontainer2-box1{
+    text-align: center;
+}
+
+.achivementcontainer2-box2{
+    padding: 5%;
+    display: block;
+}
+
+.achivementcontainer2-box2-1{
+    display: block;
+}
+
+.achivementcontainer2-box2-1-a{
     width: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.9);
-    transition: 0.5s;
-    overflow: hidden;
 }
 
-.overlay2-content {
-    position: relative;
-    top: 25%;
+.achivementcontainer2-box2-1-a img{
+    width: 40vw;
+    border: 2px solid white;
+}
+
+.achivementcontainer2-box2-1-b{
+    margin-top: 3%;
     width: 100%;
     text-align: center;
-    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
-.overlay2 a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #818181;
+.achivementcontainer2-box2-2{
     display: block;
-    transition: 0.3s;
 }
 
-.overlay2 a:hover,
-.overlay2 a:focus {
-    color: #f1f1f1;
+.achivementcontainer2-box2-2-a{
+    width: 100%;
 }
 
-.overlay2 .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
+.achivementcontainer2-box2-2-a img{
+    width: 20vw;
+}
+
+.achivementcontainer2-box2-2-b{
+    margin-top: 3%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.achivementcontainer2-box2-3{
+    display: block;
+}
+
+.achivementcontainer2-box2-3-a{
+    width: 100%;
+}
+
+.achivementcontainer2-box2-3-a img{
+    width: 30vw;
+}
+
+.achivementcontainer2-box2-3-b{
+    margin-top: 3%;
+    width: 100%;
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+
+.achivementcontainer2-box2-3-b a{
+    color: white;
+}
+
+.achivementcontainer2-box2-3-b a:hover{
+    color: rgb(0, 213, 255);
+}
+
+.achivementcontainer2-box2-4{
+    display: block;
+}
+
+.achivementcontainer2-box2-4-a{
+    width: 100%;
+}
+
+.achivementcontainer2-box2-4-a img{
+    border: 2px solid white;
+    width: 40vw;
+}
+
+.achivementcontainer2-box2-4-b{
+    margin-top: 3%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.achivementcontainer2-box2-5{
+    display: block;
+}
+
+.achivementcontainer2-box2-5-a{
+    width: 100%;
+}
+
+.achivementcontainer2-box2-5-a img{
+    width: 30vw;
+}
+
+.achivementcontainer2-box2-5-b{
+    margin-top: 3%;
+    width: 100%;
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+
+.achivementcontainer2-box2-5-b a{
+    color: white;
+}
+
+.achivementcontainer2-box2-5-b a:hover{
+    color: rgb(0, 213, 255);
+}
+
+@media screen and (max-width: 800px){
+    .achivementcontainer2-box2 .font-style4{
+        font-size: 4vw;
+    }
+
+    .achivementcontainer2-box2-1-a img{
+        width: 70vw;
+    }
+
+    .achivementcontainer2-box2-2-a img{
+        width: 40vw;
+    }
+
+    .achivementcontainer2-box2-3-a img{
+        width: 60vw;
+    }
+
+    .achivementcontainer2-box2-4-a img{
+        width: 70vw;
+    }
+
+    .achivementcontainer2-box2-5-a img{
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .hr2{
+        height: 100px;
+    }
 }
