@@ -985,7 +985,7 @@ textarea {
 
 .gallery3-prompt{
     font-size: 3vw;
-    line-height: 200%;
+    line-height: 150%;
     transition: .5s ease;
     opacity: 0;
     position: absolute;
@@ -1249,5 +1249,169 @@ textarea {
 @media screen and (max-width: 500px){
     .hr2{
         height: 100px;
+    }
+}
+
+/*Contact Container------------------------------------------------------------------------------------------------------*/
+.contactcontainer{
+    background-color: #1B208D;
+    width: auto;
+    display: block;
+}
+
+.contactcontainer-box1{
+    background-image: url(../images/picture9.png);
+    background-size: cover;
+}
+
+.contactcontainer .form1 {
+    color: #B8EEEE;
+    display: block;
+    padding: 5%;
+    width: 30%;
+}
+
+.contactcontainer input[type=text] {
+    color: black;
+    background-color: #B8EEEE;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #375B44;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contactcontainer input[type=submit] {
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    margin-left: auto;
+    color: white;
+    background-color: #5CCDCD;
+    border: none;
+}
+
+.contactcontainer .form1 h2 {
+    color: black;
+}
+
+.contactcontainer textarea {
+    color: #6a8e77;
+    background-color: #B8EEEE;
+    width: 99%;
+    margin: 8px 0;
+}
+
+.contactcontainer-box2{
+    padding: 5% 3%;
+}
+
+.showbar2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.showbar2-list {
+    text-align: center;
+    width: 25%;
+    border: 1px solid white;
+    display: block;
+    justify-content: center;
+}
+
+.showbar2-list-box1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.showbar2-list-box1 img {
+    background-color: white;
+    width: 3vw;
+    margin: 2%;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.showbar2-list-box2{
+    display: flex;
+    justify-content: center;
+}
+
+.showbar2-font {
+    padding: 3%;
+    white-space: nowrap;
+    text-align: left;
+    display: block;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.showbar2-font2 {
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+.showbar2-list2 {
+    background-color: #8678D7;
+    color: black;
+}
+
+@media screen and (max-width: 800px) {
+
+    .showbar2 {
+        display: block;
+        width: 100%;
+    }
+
+    .showbar2-list {
+        width: 100%;
+    }
+
+    .showbar2-list-box1{
+        text-align: left;
+        align-items: center;
+        justify-content: none;
+        display: flex;
+        width: 100%;
+    }
+
+    .showbar2-font2 {
+        font-size: 5vw;
+        font-weight: 400;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .contactcontainer .form1 {
+        color: #B8EEEE;
+        display: block;
+        padding: 5%;
+        width: 90%;
+    }
+    
+    .contactcontainer input[type=text] {
+        color: black;
+        background-color: #B8EEEE;
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: 1px solid #375B44;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+    .contactcontainer input[type=submit] {
+        font-size: 18px;
+        font-weight: 600;
+        display: flex;
+        margin-left: auto;
+        color: white;
+        background-color: #5CCDCD;
+        border: none;
     }
 }
