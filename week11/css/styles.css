@@ -1,0 +1,27 @@
+.bg-grey{
+    background-color: grey;
+}
+
+i{
+    font-size: 60px;
+}
+
+.img-small{
+    width: 150px;
+}
+
+.icon-small{
+    font-size: 200px;
+}
+
+.icon-white{
+    color: white;
+}
+
+.color-white{
+    color: white;
+}
+
+.color-white img{
+    width: 200px;
+}
