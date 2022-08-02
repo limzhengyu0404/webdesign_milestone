@@ -2,14 +2,29 @@ body{
     font-family: 'Caladea', sans-serif;
 }
 
+.fs-4-blue{
+    margin: 0;
+    padding: 0;
+    color: #4EE1D0;
+}
+
+.w-30{
+    width: 33%;
+}
+
 /*Navbar css*/
 .icon-helloworld{
     width: auto;
     height: 70px;
 }
 
+.icon-helloworld2{
+    width: auto;
+    height: 90px;
+}
+
 .navbar{
-    --bs-navbar-nav-link-padding-x: 4rem;
+    --bs-navbar-nav-link-padding-x: 5rem;
 }
 
 .nav-button{
@@ -18,6 +33,17 @@ body{
 
 .hidden-culture{
     display: none;
+}
+
+.offcanvas{
+    overflow-y: hidden;
+    opacity: 80%;
+    --bs-offcanvas-width: 991px;
+}
+
+.offcanvas a{
+    color: white;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 992px){
@@ -29,6 +55,18 @@ body{
     .hidden-culture{
         display: flex;
     }
+
+    .navbar-collapse-margin{
+        margin-top: 4%;
+    }
+
+    .offcanvas{
+        --bs-offcanvas-width: 100%;
+    }
+
+    .w-30{
+        width: 50%;
+    }
     
 }
 
@@ -37,6 +75,10 @@ body{
     .icon-helloworld{
         width: auto;
         height: 65px;
+    }
+
+    .w-30{
+        width: 100%;
     }
     
 }

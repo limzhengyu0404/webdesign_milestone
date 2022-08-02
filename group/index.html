@@ -24,21 +24,82 @@
 </head>
 
 <body>
-
-  <div class="offcanvas offcanvas-top" id="demo">
-    <div class="offcanvas-header">
-      <h1 class="offcanvas-title">Heading</h1>
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  <!--Off Canvas-->
+  <div class="offcanvas offcanvas-start text-bg-dark" data-bs-scroll="true" id="demo">
+    <div class="offcanvas-header d-block">
+      <div class="offcanvas-header">
+        <div><img src="images/home/icon2.png" alt="" class="d-inline-block align-text-top icon-helloworld2"></div>
+        <button type="button" class="btn-close bg-light" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <a href=""><h1 class="px-4 text-decoration-underline">WHAT IS CULTURE</h1></a>
     </div>
     <div class="offcanvas-body">
-      <p>Some text lorem ipsum.</p>
-      <button class="btn btn-secondary" type="button">A Button</button>
+      <div class="d-flex flex-wrap">
+        <!--Culture 1-->
+        <div class="container-fluid w-30 p-3 fs-3 d-block">
+          <p class="fs-4-blue">Culture 1</p>
+          <a href=""><h2>Malaysia Culture</h2></a>
+        </div>
+        <!--Culture 2-->
+        <div class="container-fluid w-30 p-3 fs-3 d-block">
+          <p class="fs-4-blue">Culture 2</p>
+          <a href=""><h2>Chinese Culture</h2></a>
+        </div>
+        <!--Culture 3-->
+        <div class="container-fluid w-30 p-3 fs-3 d-block">
+          <p class="fs-4-blue">Culture 3</p>
+          <a href=""><h2>Egypt Culture</h2></a>
+        </div>
+        <!--Culture 4-->
+        <div class="container-fluid w-30 p-3 fs-3 d-block">
+          <p class="fs-4-blue">Culture 4</p>
+          <a href=""><h2>Thailand Culture</h2></a>
+        </div>
+        <!--Culture 5-->
+        <div class="container-fluid w-30 p-3 fs-3 d-block">
+          <p class="fs-4-blue">Culture 5</p>
+          <a href=""><h2>Italy Culture</h2></a>
+        </div>
+        <!--Culture 6-->
+        <div class="container-fluid w-30 p-3 fs-3 d-block">
+          <p class="fs-4-blue">Culture 6</p>
+          <a href=""><h2>Denmark Culture</h2></a>
+        </div>
+        <!--Culture 7-->
+        <div class="container-fluid w-30 p-3 fs-3 d-block">
+          <p class="fs-4-blue">Culture 7</p>
+          <a href=""><h2>Japan Culture</h2></a>
+        </div>
+        <!--Culture 8-->
+        <div class="container-fluid w-30 p-3 fs-3 d-block">
+          <p class="fs-4-blue">Culture 8</p>
+          <a href=""><h2>Mexico Culture</h2></a>
+        </div>
+        <!--Culture 9-->
+        <div class="container-fluid w-30 p-3 fs-3 d-block">
+          <p class="fs-4-blue">Culture 9</p>
+          <a href=""><h2>Korean Culture</h2></a>
+        </div>
+        <!--Culture 10-->
+        <div class="container-fluid w-30 p-3 fs-3 d-block">
+          <p class="fs-4-blue">Culture 10</p>
+          <a href=""><h2>French Culture</h2></a>
+        </div>
+        <!--Culture 11-->
+        <div class="container-fluid w-30 p-3 fs-3 d-block">
+          <p class="fs-4-blue">Culture 11</p>
+          <a href=""><h2>Indian Culture</h2></a>
+        </div>
+        <!--empty box-->
+        <div class="container-fluid w-30 p-3 fs-3 d-block">
+        </div>
+      </div>
     </div>
   </div>
 
   <!--NavBar-->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark md-3">
-    <div class="container">
+    <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="images/home/icon2.png" alt="" class="d-inline-block align-text-top icon-helloworld">
       </a>
@@ -46,7 +107,7 @@
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse navbar-collapse-margin" id="navbarNav">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
             <a class="nav-link text-white fs-4" href="#">HOME</a>
