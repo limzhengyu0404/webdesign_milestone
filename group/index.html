@@ -5,48 +5,71 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--bootstrap 5.2-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>
+  <!--Fontawesome-->
   <script src="https://kit.fontawesome.com/13427233db.js" crossorigin="anonymous"></script>
+  <!--google font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <!--css files-->
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
   <title>Home</title>
 </head>
 
 <body>
 
+  <div class="offcanvas offcanvas-top" id="demo">
+    <div class="offcanvas-header">
+      <h1 class="offcanvas-title">Heading</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <p>Some text lorem ipsum.</p>
+      <button class="btn btn-secondary" type="button">A Button</button>
+    </div>
+  </div>
+
   <!--NavBar-->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark md-3">
     <div class="container">
-      <a class="navbar-brand" href="#">Web Zone</a>
+      <a class="navbar-brand" href="#">
+        <img src="images/home/icon2.png" alt="" class="d-inline-block align-text-top icon-helloworld">
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarNav">
-        <div class="mx-auto"></div>
-        <ul class="navbar-nav">
+        <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Home</a>
+            <a class="nav-link text-white fs-4" href="#">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">About</a>
+            <a class="nav-link text-white fs-4" href="#">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Blog</a>
+            <a class="nav-link text-white fs-4" href="#">CONTACT</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Contact</a>
+          <li class="nav-item hidden-culture" data-bs-toggle="offcanvas" data-bs-target="#demo">
+            <a class="nav-link text-white fs-4" href="#">CULTURE</a>
           </li>
         </ul>
       </div>
+
+      <!--Off Canvas in desktop-->
+      <div class="off-can-button">
+        <button class="btn btn-light fs-4 nav-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+          CULTURE
+        </button>
+      </div>
+
     </div>
   </nav>
 
@@ -172,59 +195,14 @@
     </div>
   </div>
 
-  <!-- Footer -->
-  <footer class="text-center text-lg-start bg-light text-muted">
-    <!-- Section: Social media -->
-
-    <!-- Section: Links  -->
-    <section class="">
-      <div class="container-fluid text-center text-md-start pt-5 bg-dark">
-        <div class="row mt-0 color-white">
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <img src="images/logo.png" alt="">
-          </div>
-
-          <div class="col-md-3 col-lg-2 col-xl-4 mx-auto mb-4">
-            <h6 class="text-uppercase fw-bold mb-4">Contact Me</h6>
-            <p>Phone: +6013 7272326</p>
-            <p><a href="mailto:limzhengyu0404@e.newera.edu.my" class="nav-link">Email:
-                limzhengyu0404@e.newera.edu.my</a></p>
-            <p><a
-                href="https://www.google.com/maps/place/Venice+Hill+Tower+8/@3.0813014,101.7725872,17z/data=!3m1!4b1!4m5!3m4!1s0x31cc35c65c2eeebb:0xdbc1b65b43747abc!8m2!3d3.0811458!4d101.7748043"
-                class="nav-link">Address: Click to view google Map</a></p>
-          </div>
-
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <h6 class="text-uppercase fw-bold mb-4">Social Media</h6>
-            <div class="d-flex">
-              <div class="p-4 my-2 align-items-center">
-                <a href="https://github.com/limzhengyu0404/limzhengyu0404.github.io"><i class="fa-brands fa-github"
-                    style="font-size:60px; color:white"></i></a>
-              </div>
-              <div class="p-4 my-2 align-items-center">
-                <a href="https://www.facebook.com/lim.sheyong.965"><i class="fa-brands fa-facebook"
-                    style="font-size:60px; color:white"></i></a>
-              </div>
-              <div class="p-4 my-2 align-items-center">
-                <a href="https://www.instagram.com/gwagaaw/"><i class="fa-brands fa-instagram"
-                    style="font-size:60px; color:white"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </footer>
-
-  <script src="js/bootstrap.bundle.min.js"></script>
   <script type="text/javascript">
     var nav = document.querySelector('nav');
 
     window.addEventListener('scroll', function () {
       if (window.pageYOffset > 100) {
-        nav.classList.add('bg-dark', 'shadow');
+        nav.classList.add('bg-dark', 'shadow', 'transition-nav');
       } else {
-        nav.classList.remove('bg-dark', 'shadow');
+        nav.classList.remove('bg-dark', 'shadow',);
       }
     });
   </script>

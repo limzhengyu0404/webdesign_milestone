@@ -1,0 +1,46 @@
+body{
+    font-family: 'Caladea', sans-serif;
+}
+
+/*Navbar css*/
+.icon-helloworld{
+    width: auto;
+    height: 70px;
+}
+
+.navbar{
+    --bs-navbar-nav-link-padding-x: 4rem;
+}
+
+.nav-button{
+    border-radius: 30px;
+}
+
+.hidden-culture{
+    display: none;
+}
+
+@media screen and (max-width: 992px){
+
+    .off-can-button{
+        display: none;
+    }
+
+    .hidden-culture{
+        display: flex;
+    }
+    
+}
+
+@media screen and (max-width: 425px){
+
+    .icon-helloworld{
+        width: auto;
+        height: 65px;
+    }
+    
+}
+
+.transition-nav{
+    transition: 1s;
+}
