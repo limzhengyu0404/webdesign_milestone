@@ -2,6 +2,10 @@ body{
     font-family: 'Caladea', sans-serif;
 }
 
+.text-dark{
+    color: black;
+}
+
 .fs-4-blue{
     margin: 0;
     padding: 0;
@@ -20,7 +24,7 @@ body{
 
 .icon-helloworld2{
     width: auto;
-    height: 90px;
+    height: 85px;
 }
 
 .navbar{
@@ -29,6 +33,11 @@ body{
 
 .nav-button{
     border-radius: 30px;
+}
+
+.navbar-toggler-special{
+    background-color: black;
+    border: var(--bs-border-width) solid rgb(255 255 255);
 }
 
 .hidden-culture{

@@ -92,84 +92,7 @@
         </button>
     </div>
 
-    <!--Column with card-->
-    <div class="container-fluid text-center bg-grey">
-        <div class="row p-3">
-            <div class="col border border-dark p-3 bg-light">
-                <h1>Column 1</h1>
-                <p>Click me to show the modal!</p>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
-                    Open modal
-                </button>
-                <!-- The Modal -->
-                <div class="modal" id="myModal">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-
-                            <!-- Modal Header -->
-                            <div class="modal-header">
-                                <h4 class="modal-title">Modal Heading</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                            </div>
-
-                            <!-- Modal body -->
-                            <div class="modal-body">
-                                Hello! You had open the modal!
-                            </div>
-
-                            <!-- Modal footer -->
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col border border-dark bg-info p-3">
-                <h1>Column 2</h1>
-                <p>Here is the button to show the accordion list</p>
-                <div id="accordion">
-                    <div class="card">
-                      <div class="card-header">
-                        <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
-                            Accordion list 1
-                        </a>
-                      </div>
-                      <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
-                        <div class="card-body">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-header">
-                        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
-                            Accordion list 2
-                      </a>
-                      </div>
-                      <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
-                        <div class="card-body">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-header">
-                        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
-                            Accordion list 3
-                        </a>
-                      </div>
-                      <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
-                        <div class="card-body">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-        </div>
-    </div>
+    
 
     <!-- Footer -->
     <footer class="text-center text-lg-start bg-light text-muted">
@@ -180,7 +103,7 @@
             <div class="container-fluid text-center text-md-start pt-5 bg-dark">
                 <div class="row mt-0 color-white">
                     <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                        <img src="images/logo.png" alt="">
+                        <img src="images/logo.png" alt="" class="image-2">
                     </div>
 
                     <div class="col-md-3 col-lg-2 col-xl-4 mx-auto mb-4">
@@ -194,37 +117,38 @@
 
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                         <h6 class="text-uppercase fw-bold mb-4">Social Media</h6>
-                        <div class="d-flex">
+                        <div class="footer-block">
                             <div class="p-4 my-2 align-items-center">
                                 <a href="https://github.com/limzhengyu0404/limzhengyu0404.github.io"><i
-                                        class="fa-brands fa-github" style="font-size:60px; color:white"></i></a>
+                                        class="fa-brands fa-github" style="font-size:4vw; color:white"></i></a>
                             </div>
                             <div class="p-4 my-2 align-items-center">
                                 <a href="https://www.facebook.com/lim.sheyong.965"><i class="fa-brands fa-facebook"
-                                        style="font-size:60px; color:white"></i></a>
+                                        style="font-size:4vw; color:white"></i></a>
                             </div>
                             <div class="p-4 my-2 align-items-center">
                                 <a href="https://www.instagram.com/gwagaaw/"><i class="fa-brands fa-instagram"
-                                        style="font-size:60px; color:white"></i></a>
+                                        style="font-size:4vw; color:white"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+    </footer>
 
-        <script>
-            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-            var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-                return new bootstrap.Popover(popoverTriggerEl)
-            })
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
 
-            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-                return new bootstrap.Tooltip(tooltipTriggerEl)
-            })
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
 
-        </script>
+    </script>
 
 </body>
 
