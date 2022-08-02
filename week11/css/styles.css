@@ -33,3 +33,14 @@ i{
     display: flex;
 }
 
+.w-special{
+    width: 33%;
+}
+
+@media screen and (max-width: 992px){
+    .w-special{
+        width: 100%;
+    }
+    
+}
+

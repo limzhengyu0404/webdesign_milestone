@@ -16,6 +16,10 @@ body{
     width: 33%;
 }
 
+.w-special{
+    width: 33%;
+}
+
 /*Navbar css*/
 .icon-helloworld{
     width: auto;
@@ -24,7 +28,7 @@ body{
 
 .icon-helloworld2{
     width: auto;
-    height: 85px;
+    height: 100px;
 }
 
 .navbar{
@@ -45,9 +49,18 @@ body{
 }
 
 .offcanvas{
-    overflow-y: hidden;
     opacity: 80%;
     --bs-offcanvas-width: 991px;
+}
+
+.offcanvas-body::-webkit-scrollbar {
+    display: none;
+}
+
+.offcanvas-body{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    overflow-y: scroll;
 }
 
 .offcanvas a{
@@ -75,6 +88,10 @@ body{
 
     .w-30{
         width: 50%;
+    }
+
+    .w-special{
+        width: 100%;
     }
     
 }
