@@ -2,6 +2,8 @@ body{
     font-family: 'Caladea', sans-serif;
 }
 
+
+/*Navi + Footer*/
 .text-dark{
     color: black;
 }
@@ -68,6 +70,10 @@ body{
     text-decoration: none;
 }
 
+.footer-bg{
+    background-image: url(../images/home/background3.jpg);
+}
+
 @media screen and (max-width: 992px){
 
     .off-can-button{
@@ -112,3 +118,5 @@ body{
 .transition-nav{
     transition: 1s;
 }
+
+/*Navi + Footer*/
