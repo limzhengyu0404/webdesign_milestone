@@ -24,7 +24,6 @@
 </head>
 
 <body>
-    <!--Nav Start-->
     <!--Off Canvas-->
     <div class="offcanvas offcanvas-start text-bg-dark" data-bs-scroll="true" id="demo">
         <div class="offcanvas-header d-block">
@@ -64,7 +63,7 @@
                 <div class="container-fluid w-30 p-3 fs-3 d-block">
                     <p class="fs-4-blue">Culture 4</p>
                     <a href="">
-                        <h2>Thailand Culture</h2>
+                        <h2>korean Culture</h2>
                     </a>
                 </div>
                 <!--Culture 5-->
@@ -124,7 +123,7 @@
     </div>
 
     <!--NavBar-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark md-3">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark md-3 bg-nav-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="images/home/icon1.png" alt="" class="d-inline-block align-text-top icon-helloworld">
@@ -162,6 +161,7 @@
         </div>
     </nav>
     <!--Nav End-->
+    
 
     <!--Footer-->
     <footer class="text-bg-dark text-center text-lg-start footer-bg">
@@ -171,7 +171,8 @@
             <div class="container-fluid w-special p-3 fs-3 d-block">
                 <h2 class="text-decoration-underline my-4">HELLO WORLD</h2>
                 <p class="fs-5">We are group of student who organizing this website, for the use of our subject, hope
-                    you will like our project!</p>
+                    you will
+                    like our project!</p>
             </div>
             <!--col 2-->
             <div class="container-fluid w-special p-3 fs-3 d-block">
@@ -211,18 +212,15 @@
         </div>
         <!-- Copyright -->
     </footer>
-    <!--Footer End-->
 
-
-    <!--Nav Script-->
     <script type="text/javascript">
         var nav = document.querySelector('nav');
 
         window.addEventListener('scroll', function () {
             if (window.pageYOffset > 100) {
-                nav.classList.add('bg-light', 'shadow', 'transition-nav');
+                nav.classList.add('bg-dark', 'shadow', 'transition-nav');
             } else {
-                nav.classList.remove('bg-light', 'shadow',);
+                nav.classList.remove('bg-dark', 'shadow',);
             }
         });
     </script>

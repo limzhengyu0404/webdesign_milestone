@@ -53,20 +53,20 @@
   font-size: 20px;
 }
 
-span1 {
+.span1 {
   font-size: 35px;
 }
 
 .back {
-  background-image: url(../images/EGYPT/bgmummy.png);
+  background-image: url(../../images/EGYPT/bgmummy.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
   color: white;
 }
 
-.navigationtop{
-  height: 100px;
+.cultop{
+  padding-top: 132px;
 }
 
 p {
@@ -123,7 +123,7 @@ p {
 
 /* Style the back side */
 .flip-card-back {
-  background-image: url(../images/EGYPT/foodflip.jpg);
+  background-image: url(../../images/EGYPT/foodflip.jpg);
   background-size: cover;
   height: 267px;
   display: flex;

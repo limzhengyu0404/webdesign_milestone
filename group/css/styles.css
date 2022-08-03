@@ -191,6 +191,7 @@ body{
 
 .bg-japan{
     background-image: url(../images/home/background7-1.png);
+    background-size: cover;
 }
 
 .bg-korean{
