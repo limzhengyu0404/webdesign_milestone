@@ -2,6 +2,10 @@ body{
     font-family: 'Caladea', sans-serif;
 }
 
+.font-700{
+    font-weight: 700;
+}
+
 /*Navi + Footer*/
 .text-dark{
     color: black;
@@ -103,6 +107,14 @@ body{
     .w-special{
         width: 100%;
     }
+
+    .bg-nav-dark{
+        background-color: #262626;
+    }
+
+    .bg-nav-light{
+        background-color: #FBFBFB;
+    }
     
 }
 
@@ -153,6 +165,45 @@ body{
     font-weight: 400;
 }
 
+.headfont2{
+    font-size: calc(2rem + .5vw)!important;
+}
+
+.bg-caro{
+    background-image: url(../images/home/background4.jpg);
+}
+
+.w-caro{
+    height: 650px;
+}
+
+.home-box2{
+    display: flex;
+}
+
+.home-box2 img{
+    width: 70%;
+}
+
+@media screen and (max-width: 1200px) {
+    .w-caro{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 992px){
+    
+    .home-box2{
+        display: block;
+    }
+
+    .home-box2 img{
+        width: 50%;
+    }
+
+}
+
 @media screen and (max-width: 800px) {
     .firheader-home {
         padding-top: 20vh;
@@ -162,19 +213,23 @@ body{
 
 @media screen and (max-width: 575px) {
     .firheader-home {
-        padding-top: 15vh;
-        padding-bottom: 10vh;
+        padding-top: 12vh;
+        padding-bottom: 7vh;
+    }
+
+    .home-box2 img{
+        width: 80%;
     }
 }
 
 @media screen and (max-width: 450px) {
     .firheader-home {
-        padding-top: 15vh;
+        padding-top: 12vh;
     }
 }
 
 @media screen and (max-width: 320px) {
     .firheader-home {
-        padding-top: 15vh;
+        padding-top:12vh;
     }
 }

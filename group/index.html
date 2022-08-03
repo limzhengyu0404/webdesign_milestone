@@ -122,7 +122,8 @@
   </div>
 
   <!--NavBar-->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark md-3">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark md-3 bg-nav-dark">
+    <!--bg-navi-dark-->
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="images/home/icon2.png" alt="" class="d-inline-block align-text-top icon-helloworld">
@@ -161,146 +162,106 @@
   <!--Top container-->
   <div class="container-fluid bg-topcontainer text-light">
     <div class="d-block firheader-home justify-content-center text-center">
-      <div>HELLO WORLD!</div>
+      <div class="pt-3">HELLO WORLD!</div>
       <div class="fs-2 mt-3 fw-400">Drop down here,take a while,<br>and know more about this world!</div>
     </div>
   </div>
 
   <!--Carousel-->
-  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="4000">
-        <img src="images/home/picture01.png" class="d-block w-100" alt="...">
+  <div id="carouselExampleInterval" class="carousel slide bg-caro" data-bs-ride="carousel">
+    <div class="carousel-inner w-caro mx-auto">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="images/home/malaysia.png" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item" data-bs-interval="4000">
-        <img src="images/home/picture02.png" class="d-block w-100" alt="...">
+        <img src="images/home/china.png" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item" data-bs-interval="4000">
-        <img src="images/home/picture03.png" class="d-block w-100" alt="...">
+        <img src="images/home/egypt.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="images/home/thailand.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="images/home/italy.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="images/home/denmark.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="images/home/japan.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="images/home/mexico.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="images/home/korean.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="images/home/french.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="images/home/indian.png" class="d-block w-100" alt="...">
       </div>
     </div>
   </div>
 
-  <!--Column with card-->
-  <div class="container-fluid text-center bg-grey">
-    <div class="row p-3">
-      <div class="col border border-dark p-3 bg-light">
-        <h1>Column 1</h1>
-        <p>Click me to show the modal!</p>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
-          Open modal
-        </button>
-        <!-- The Modal -->
-        <div class="modal" id="myModal">
-          <div class="modal-dialog">
-            <div class="modal-content">
-
-              <!-- Modal Header -->
-              <div class="modal-header">
-                <h4 class="modal-title">Modal Heading</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-              </div>
-
-              <!-- Modal body -->
-              <div class="modal-body">
-                Hello! You had open the modal!
-              </div>
-
-              <!-- Modal footer -->
-              <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col border border-dark bg-info p-3">
-        <h1>Column 2</h1>
-        <p>Here is the button to show the accordion list</p>
-        <div id="accordion">
-          <div class="card">
-            <div class="card-header">
-              <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
-                Accordion list 1
-              </a>
-            </div>
-            <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
-              <div class="card-body">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat.
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header">
-              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
-                Accordion list 2
-              </a>
-            </div>
-            <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
-              <div class="card-body">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat.
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header">
-              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
-                Accordion list 3
-              </a>
-            </div>
-            <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
-              <div class="card-body">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+  <!--Home container2-->
+  <div class="container-fluid d-block bg-white px-5 text-center">
+    <div class="home-box2">
+      <div class="mx-auto"><img src="images/home/image01.png" alt=""></div>
+      <div class="m-auto fs-2 justify-content-center align-items-center font-700">11 Culture around the World.<br>Their Tradition, Food, Wearing and Festival.</div>
     </div>
+    <div class="text-decoration-underline fs-2 mt-5 font-700">3 Culture We Recommend</div>
   </div>
 
+  <!--Footer-->
   <footer class="text-bg-dark text-center text-lg-start footer-bg">
 
     <div class="d-flex flex-wrap text-center">
       <!--col 1-->
       <div class="container-fluid w-special p-3 fs-3 d-block">
         <h2 class="text-decoration-underline my-4">HELLO WORLD</h2>
-          <p class="fs-5">We are group of student who organizing this website, for the use of our subject, hope you will like our project!</p>
+        <p class="fs-5">We are group of student who organizing this website, for the use of our subject, hope you will
+          like our project!</p>
       </div>
       <!--col 2-->
       <div class="container-fluid w-special p-3 fs-3 d-block">
         <h2 class="text-decoration-underline my-4">QUICK LINK</h2>
-        <a href="" class="text-decoration-none text-light"><div class="fs-5">Home</div></a>
-        <a href="" class="text-decoration-none text-light"><div class="fs-5">About</div></a>
-        <a href="" class="text-decoration-none text-light"><div class="fs-5">Contact</div></a>
-        <a href="" class="text-decoration-none text-light"><div class="fs-5">What's Culture</div></a>
+        <a href="" class="text-decoration-none text-light">
+          <div class="fs-5">Home</div>
+        </a>
+        <a href="" class="text-decoration-none text-light">
+          <div class="fs-5">About</div>
+        </a>
+        <a href="" class="text-decoration-none text-light">
+          <div class="fs-5">Contact</div>
+        </a>
+        <a href="" class="text-decoration-none text-light">
+          <div class="fs-5">What's Culture</div>
+        </a>
       </div>
       <!--col 3-->
       <div class="container-fluid w-special p-3 fs-3 d-flex flex-column justify-content-center">
         <h2 class="text-decoration-underline my-4">SOCIAL MEDIA</h2>
         <div class="d-flex mx-auto align-items-center">
-          <a href="" class="text-decoration-none text-light"><i class="fa-brands fa-github" style="font-size: 60px; color:white"></i></a>
+          <a href="" class="text-decoration-none text-light"><i class="fa-brands fa-github"
+              style="font-size: 60px; color:white"></i></a>
           <div class="fs-5">&nbsp;&nbsp;&nbsp;&nbsp;Github&nbsp;&nbsp;</div>
         </div>
         <div class="d-flex mx-auto align-items-center">
-          <a href="" class="text-decoration-none text-light"><i class="fa-brands fa-facebook" style="font-size: 60px; color:white"></i></a>
+          <a href="" class="text-decoration-none text-light"><i class="fa-brands fa-facebook"
+              style="font-size: 60px; color:white"></i></a>
           <div class="fs-5">&nbsp;Facebook</div>
         </div>
       </div>
     </div>
 
-      <!-- Copyright -->
-      <div class="text-center p-3 copyright-line">
-        © 2022 Copyright
-      </div>
-      <!-- Copyright -->
+    <!-- Copyright -->
+    <div class="text-center p-3 copyright-line">
+      © 2022 Copyright
+    </div>
+    <!-- Copyright -->
   </footer>
 
   <script type="text/javascript">
