@@ -8,8 +8,14 @@
 
 .backcolor {
   background-color: #EDAE4C;
+  padding-bottom: 5%;
 }
 
+.direct{
+  background-color: #F5E6B5;
+  padding: 7%;
+  padding-top: 2%;
+}
 
 
 .Festivalnav {
@@ -43,7 +49,9 @@
 
 }
 
-.text-center {
+
+
+.wordcenter{
   font-family: Caladea;
   font-size: 48px;
   font-weight: bold;
@@ -53,7 +61,7 @@
   font-size: 20px;
 }
 
-.span1 {
+span1 {
   font-size: 35px;
 }
 
@@ -69,8 +77,9 @@
   padding-top: 132px;
 }
 
-p {
 
+
+.boldsize{
   font-weight: 500;
 }
 
@@ -218,7 +227,7 @@ p {
     flex-direction: column;
   }
 
-  .row{
+  .queue{
     display: flex;
     flex-direction: column;
     justify-content: centers;

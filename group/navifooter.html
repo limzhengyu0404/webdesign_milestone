@@ -161,6 +161,7 @@
         </div>
     </nav>
     <!--Nav End-->
+
     
 
     <!--Footer-->
@@ -213,14 +214,16 @@
         <!-- Copyright -->
     </footer>
 
+
+    <!--Nav Script-->
     <script type="text/javascript">
         var nav = document.querySelector('nav');
 
         window.addEventListener('scroll', function () {
             if (window.pageYOffset > 100) {
-                nav.classList.add('bg-dark', 'shadow', 'transition-nav');
+                nav.classList.add('bg-light', 'shadow', 'transition-nav');
             } else {
-                nav.classList.remove('bg-dark', 'shadow',);
+                nav.classList.remove('bg-light', 'shadow',);
             }
         });
     </script>
