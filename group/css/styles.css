@@ -139,7 +139,7 @@ body{
 
 .firheader-home{
     font-weight: 700;
-    font-size: calc(3.5rem + .5vw)!important;
+    font-size: calc(3rem + .5vw)!important;
     padding-top: 25vh;
     padding-bottom: 20vh;
 }
