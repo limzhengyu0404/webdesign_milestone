@@ -6,6 +6,34 @@ body{
     font-weight: 700;
 }
 
+.font-type1{
+    font-size: calc(3rem + .5vw)!important;
+}
+
+.font-style2{
+    font-size: calc(1.0rem + .5vw)!important;
+}
+
+.font-style3{
+    font-size: 1.25rem!important;
+}
+
+.font-stylebutton{
+    font-size: 1.0rem!important;
+}
+
+
+@media screen and (max-width: 450px) {
+
+    .font-style3{
+        font-size: 1rem!important;
+    }
+
+    .font-stylebutton{
+        font-size: 1.0rem!important;
+    }
+}
+
 /*Navi + Footer*/
 .text-dark{
     color: black;
