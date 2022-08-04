@@ -296,22 +296,26 @@ body{
 @media screen and (max-width: 630px){
     .mlylanguage1 {
         top:25px;
-        right:80px;
+        right:40px;
     }
     .mlylanguage2 {
         bottom:10px;
-        right:90px;
+        right:80px;
     }
 
     .mlymodal {
         font-size: 10px;
+    }
+
+    .mlylanguagehead {
+        font-size: 4vw;
     }
 }
 
 @media screen and (max-width: 321px){
     .mlylanguage1 {
         top:10px;
-        right:40px;
+        right:20px;
     }
 
     .mlylanguage2 {
@@ -321,10 +325,6 @@ body{
 
     .mlymodal {
         font-size: 8px;
-    }
-
-    .mlylanguagehead {
-        font-size: 3vw;
     }
 }
 
