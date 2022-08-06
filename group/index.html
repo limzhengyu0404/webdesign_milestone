@@ -24,347 +24,47 @@
 </head>
 
 <body>
-  <!--Off Canvas-->
-  <div class="offcanvas offcanvas-start text-bg-dark" data-bs-scroll="true" id="demo">
-    <div class="offcanvas-header d-block">
-      <div class="offcanvas-header">
-        <div><img src="images/home/icon2.png" alt="" class="d-inline-block align-text-top icon-helloworld2"></div>
-        <button type="button" class="btn-close bg-light" data-bs-dismiss="offcanvas"></button>
-      </div>
-      <a href="">
-        <h1 class="px-4 text-decoration-underline">WHAT IS CULTURE</h1>
-      </a>
-    </div>
-    <div class="offcanvas-body">
-      <div class="d-flex flex-wrap">
-        <!--Culture 1-->
-        <div class="container-fluid w-30 p-3 fs-3 d-block">
-          <p class="fs-4-blue">Culture 1</p>
-          <a href="malaysia.html">
-            <h2>Malaysia Culture</h2>
-          </a>
-        </div>
-        <!--Culture 2-->
-        <div class="container-fluid w-30 p-3 fs-3 d-block">
-          <p class="fs-4-blue">Culture 2</p>
-          <a href="chinese.html">
-            <h2>Chinese Culture</h2>
-          </a>
-        </div>
-        <!--Culture 3-->
-        <div class="container-fluid w-30 p-3 fs-3 d-block">
-          <p class="fs-4-blue">Culture 3</p>
-          <a href="egypt.html">
-            <h2>Egypt Culture</h2>
-          </a>
-        </div>
-        <!--Culture 4-->
-        <div class="container-fluid w-30 p-3 fs-3 d-block">
-          <p class="fs-4-blue">Culture 4</p>
-          <a href="thailand.html">
-            <h2>Thailand Culture</h2>
-          </a>
-        </div>
-        <!--Culture 5-->
-        <div class="container-fluid w-30 p-3 fs-3 d-block">
-          <p class="fs-4-blue">Culture 5</p>
-          <a href="italy.html">
-            <h2>Italy Culture</h2>
-          </a>
-        </div>
-        <!--Culture 6-->
-        <div class="container-fluid w-30 p-3 fs-3 d-block">
-          <p class="fs-4-blue">Culture 6</p>
-          <a href="denmark.html">
-            <h2>Denmark Culture</h2>
-          </a>
-        </div>
-        <!--Culture 7-->
-        <div class="container-fluid w-30 p-3 fs-3 d-block">
-          <p class="fs-4-blue">Culture 7</p>
-          <a href="japan.html">
-            <h2>Japan Culture</h2>
-          </a>
-        </div>
-        <!--Culture 8-->
-        <div class="container-fluid w-30 p-3 fs-3 d-block">
-          <p class="fs-4-blue">Culture 8</p>
-          <a href="mexico.html">
-            <h2>Mexico Culture</h2>
-          </a>
-        </div>
-        <!--Culture 9-->
-        <div class="container-fluid w-30 p-3 fs-3 d-block">
-          <p class="fs-4-blue">Culture 9</p>
-          <a href="korean.html">
-            <h2>Korean Culture</h2>
-          </a>
-        </div>
-        <!--Culture 10-->
-        <div class="container-fluid w-30 p-3 fs-3 d-block">
-          <p class="fs-4-blue">Culture 10</p>
-          <a href="french.html">
-            <h2>French Culture</h2>
-          </a>
-        </div>
-        <!--Culture 11-->
-        <div class="container-fluid w-30 p-3 fs-3 d-block">
-          <p class="fs-4-blue">Culture 11</p>
-          <a href="indian.html">
-            <h2>Indian Culture</h2>
-          </a>
-        </div>
-        <!--empty box-->
-        <div class="container-fluid w-30 p-3 fs-3 d-block">
-        </div>
-      </div>
-    </div>
-  </div>
-
   <!--NavBar-->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark md-3 bg-nav-dark">
-    <!--bg-navi-dark-->
+  <nav class="navbar navbar-expand-lg bg-light fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="images/home/icon2.png" alt="" class="d-inline-block align-text-top icon-helloworld">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <div>
+        <a class="navbar-brand noappear" href="index.html">asas</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse navbar-collapse-margin" id="navbarNav">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-            <a class="nav-link text-white fs-5" href="index.html">HOME</a>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item font-type4">
+            <a class="nav-link" href="#">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-white fs-5" href="#">ABOUT</a>
+          <li class="nav-item font-type4">
+            <a class="nav-link" href="#">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-white fs-5" href="#">CONTACT</a>
+          <li class="nav-item dropdown font-type4">
+            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">Culture</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item font-type5" href="#">Malaysia Culture</a></li>
+              <li><a class="dropdown-item font-type5" href="#">Japan Culture</a></li>
+              <li><a class="dropdown-item font-type5" href="#">Chinese Culture</a></li>
+              <li><a class="dropdown-item font-type5" href="#">Korean Culture</a></li>
+            </ul>
           </li>
-          <li class="nav-item hidden-culture" data-bs-toggle="offcanvas" data-bs-target="#demo">
-            <a class="nav-link text-white fs-5" href="#">CULTURE</a>
+          <li class="nav-item font-type4">
+            <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
       </div>
-
-      <!--Off Canvas in desktop-->
-      <div class="off-can-button">
-        <button class="btn btn-light fs-5 nav-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
-          CULTURE
-        </button>
-      </div>
-
+    </div>
+    <div class="nav-bookmark">
+      <img src="images/home/icon2.png" alt="">
     </div>
   </nav>
 
-  <!--Top container-->
-  <div class="container-fluid bg-topcontainer text-light">
-    <div class="d-block firheader-home justify-content-center text-center">
-      <div class="pt-3">HELLO WORLD!</div>
-      <div class="fs-2 mt-3 fw-400">Drop down here,take a while,<br>and know more about this world!</div>
-    </div>
+  <div class="container-fluid" style="height: 1000px; background-color:green;">
+
   </div>
-
-  <!--Carousel-->
-  <div id="carouselExampleInterval" class="carousel slide bg-caro" data-bs-ride="carousel">
-    <div class="carousel-inner w-caro mx-auto">
-      <div class="carousel-item active" data-bs-interval="2000">
-        <img src="images/home/malaysia.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item" data-bs-interval="4000">
-        <img src="images/home/china.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item" data-bs-interval="4000">
-        <img src="images/home/egypt.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item" data-bs-interval="4000">
-        <img src="images/home/thailand.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item" data-bs-interval="4000">
-        <img src="images/home/italy.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item" data-bs-interval="4000">
-        <img src="images/home/denmark.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item" data-bs-interval="4000">
-        <img src="images/home/japan.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item" data-bs-interval="4000">
-        <img src="images/home/mexico.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item" data-bs-interval="4000">
-        <img src="images/home/korean.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item" data-bs-interval="4000">
-        <img src="images/home/french.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item" data-bs-interval="4000">
-        <img src="images/home/indian.png" class="d-block w-100" alt="...">
-      </div>
-    </div>
-  </div>
-
-  <!--Home container2-->
-  <div class="container-fluid d-block bg-white px-5 text-center">
-    <div class="home-box2">
-      <div class="mx-auto"><img src="images/home/image01.png" alt=""></div>
-      <div class="m-auto fs-2 justify-content-center align-items-center font-700">11 Culture around the World.<br>Their
-        Tradition, Food, Wearing and Festival.</div>
-    </div>
-    <div class="text-decoration-underline fs-2 mt-5 font-700">3 Culture We Recommend</div>
-  </div>
-
-  <!--Chinese Culture-->
-  <div class="container-fluid bg-chinese d-block py-3 text-center">
-    <div class="d-flex justify-content-center text-center fs-3 font-700 text-decoration-underline">Chinese Culture</div>
-    <div class="home-box3">
-      <div class="m-auto text-center"><img src="images/home/image02.png" alt=""></div>
-      <div class="m-auto home-box3-2">Chinese culture is said to have begun with the Yellow Emperor, over 5,000 years
-        ago. He was a cultivator of the Tao (or the Way), and was said to have great power and wisdom. He taught his
-        subjects how to live in accordance with the heavenly Way.</div>
-    </div>
-    <div class="home-box3">
-      <div class="m-auto text-center"><img src="images/home/image03.png" alt=""></div>
-      <div class="m-auto home-box3-2"><span class="text-decoration-underline">Chinese - Fraught with
-          pseudoscience</span><br>
-        Traditional Chinese medicine is built on a foundation of more than 2,500 years of Chinese medical practices that
-        includes various forms of herbal medicine, acupuncture, massage, exercise and dietary therapy. Its philosophy is
-        based on Yinyangism,(the combination of Five Phases theory with Yin-Yang theory) which was later absorbed by
-        Daoism.</div>
-    </div>
-    <div class="home-box3">
-      <div class="m-auto text-center"><img src="images/home/image04.png" alt=""></div>
-      <div class="m-auto home-box3-2"><span class="text-decoration-underline">Chinese Food</span><br>
-        Chinese food is famous all over the world, but you may be shocked by its surprising range and variety of
-        ingredients if you've only eaten in Chinese restaurants abroad. Chinese food has countless delicious and
-        fantastic dishes. And people from different areas have different cuisine types, which can be bland, sweet,
-        salty, spicy, or sour.</div>
-    </div>
-    <a href="#"><button class="btn btn-dark fs-5">SEE MORE</button></a>
-  </div>
-
-  <!--Japan Culture-->
-  <div class="container-fluid bg-japan d-block py-3 text-center">
-    <div class="d-flex justify-content-center text-center fs-3 font-700 text-decoration-underline">Japan Culture</div>
-    <div class="home-box3">
-      <div class="m-auto text-center"><img src="images/home/image05.png" alt=""></div>
-      <div class="m-auto home-box3-2">Japan is renowned worldwide as a nation steeped in a culture that combines both
-        tradition and modernity. Thousands of years as an isolated island country allowed Japan to undergo various
-        cultural evolutions in solitude, creating a truly unique traditional culture.</div>
-    </div>
-    <div class="home-box3">
-      <div class="m-auto text-center"><img src="images/home/image06.png" alt=""></div>
-      <div class="m-auto home-box3-2"><span class="text-decoration-underline">Japan - A Technologicla Tour</span><br>
-        Japan has some of the biggest electronics conglomerates in the world, some of the most cutting-edge innovations
-        and has more Nobel laureates in science than any other Asian country</div>
-    </div>
-    <div class="home-box3">
-      <div class="m-auto text-center"><img src="images/home/image07.png" alt=""></div>
-      <div class="m-auto home-box3-2"><span class="text-decoration-underline">Japanese Food</span><br>
-        Japan is a paradise of plenty for the seasoned foodie, boasting many drinks and dishes that have become staples
-        of international cuisine. It stands to reason that in Japan you can get the original and the best … as well as
-        special produce that's just for the locals.</div>
-    </div>
-    <a href="#"><button class="btn btn-dark fs-5">SEE MORE</button></a>
-  </div>
-
-  <!--Korean Culture-->
-  <div class="container-fluid bg-korean d-block py-3 text-center">
-    <div class="d-flex justify-content-center text-center fs-3 font-700 text-decoration-underline">Korea Culture</div>
-    <div class="home-box3">
-      <div class="m-auto text-center"><img src="images/home/image08.png" alt=""></div>
-      <div class="m-auto home-box3-2">Korea's cultural and artistic achievements through the ages are now leading many
-        of its young talents to the world's most prestigious music and dance competitions, while its literary works are
-        being translated into many different languages for global readers. Recently, Korean Dansaekhwa (monochrome
-        paintings) have become the talk of the global art world.</div>
-    </div>
-    <div class="home-box3">
-      <div class="m-auto text-center"><img src="images/home/image09.png" alt=""></div>
-      <div class="m-auto home-box3-2">Korean business is founded upon relationships; even large corporations are often
-        family managed with members still acting in executive positions. The Confucian principles regarding respect for
-        age, family, rank and tradition have ensured the continuance of this system. There have been recent calls for
-        reforms, due to economic downturns, in Korea but this will take time due to the entrenched systems in place.
-      </div>
-    </div>
-    <div class="home-box3">
-      <div class="m-auto text-center"><img src="images/home/image10.png" alt=""></div>
-      <div class="m-auto home-box3-2">A Korean meal generally consists of rice, soup or stew, and a number of side
-        dishes, almost invariably among them kimchi, or pickled vegetables. The most common ingredients to use for
-        cooking are 된장 (doenjang) which is a fermented bean paste, ginger, chili powder, fermented hot pepper paste,
-        garlic, salt, sesame oil, and soy sauce.</div>
-    </div>
-    <a href="korean.html"><button class="btn btn-dark fs-5">SEE MORE</button></a>
-  </div>
-
-  <!--Home Container 3-->
-  <div class="container-fluid d-block text-center pt-5">
-    <div class="fs-2 font-700">What are you waiting for?<br>Let start our journey now!</div>
-    <div class="my-4"><a href="#"><button class="btn btn-dark fs-5">CULTURE</button></a></div>
-    <div class="w-50 m-auto"><img src="images/home/image11.png" alt="" class="w-100"></div>
-  </div>
-
-  <!--Footer-->
-  <footer class="text-bg-dark text-center text-lg-start footer-bg">
-
-    <div class="d-flex flex-wrap text-center">
-      <!--col 1-->
-      <div class="container-fluid w-special p-3 fs-3 d-block">
-        <h2 class="text-decoration-underline my-4">HELLO WORLD</h2>
-        <p class="fs-5">We are group of student who organizing this website, for the use of our subject, hope you will
-          like our project!</p>
-      </div>
-      <!--col 2-->
-      <div class="container-fluid w-special p-3 fs-3 d-block">
-        <h2 class="text-decoration-underline my-4">QUICK LINK</h2>
-        <a href="index.html" class="text-decoration-none text-light">
-          <div class="fs-5">Home</div>
-        </a>
-        <a href="" class="text-decoration-none text-light">
-          <div class="fs-5">About</div>
-        </a>
-        <a href="" class="text-decoration-none text-light">
-          <div class="fs-5">Contact</div>
-        </a>
-        <a href="" class="text-decoration-none text-light">
-          <div class="fs-5">What's Culture</div>
-        </a>
-      </div>
-      <!--col 3-->
-      <div class="container-fluid w-special p-3 fs-3 d-flex flex-column justify-content-center">
-        <h2 class="text-decoration-underline my-4">SOCIAL MEDIA</h2>
-        <div class="d-flex mx-auto align-items-center">
-          <a href="https://github.com/limzhengyu0404/limzhengyu0404.github.io/tree/master/group" class="text-decoration-none text-light"><i class="fa-brands fa-github"
-              style="font-size: 60px; color:white"></i></a>
-          <div class="fs-5">&nbsp;&nbsp;&nbsp;&nbsp;Github&nbsp;&nbsp;</div>
-        </div>
-        <div class="d-flex mx-auto align-items-center">
-          <a href="https://www.facebook.com/profile.php?id=100083994739797" class="text-decoration-none text-light"><i class="fa-brands fa-facebook"
-              style="font-size: 60px; color:white"></i></a>
-          <div class="fs-5">&nbsp;Facebook</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Copyright -->
-    <div class="text-center p-3 copyright-line">
-      © 2022 Copyright
-    </div>
-    <!-- Copyright -->
-  </footer>
-
-  <script type="text/javascript">
-    var nav = document.querySelector('nav');
-
-    window.addEventListener('scroll', function () {
-      if (window.pageYOffset > 100) {
-        nav.classList.add('bg-dark', 'shadow', 'transition-nav');
-      } else {
-        nav.classList.remove('bg-dark', 'shadow',);
-      }
-    });
-  </script>
 
 </body>
 
