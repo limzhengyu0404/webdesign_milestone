@@ -6,31 +6,39 @@ body{
     font-weight: 700;
 }
 
-.font-type1{
+.font-type1{ /*Heading*/
     font-size: calc(3rem + .5vw)!important;
+    font-weight: 700;
 }
 
-.font-style2{
+.font-type2{ /*Subheading 1*/
+    font-size: calc(1.5rem + .5vw)!important;
+    font-weight: 700;
+}
+
+.font-type3{ /*Subheading 2*/
     font-size: calc(1.0rem + .5vw)!important;
+    font-weight: 700;
 }
 
-.font-style3{
+.font-type4{ /*Content font*/
     font-size: 1.25rem!important;
+    font-weight: 400;
 }
 
-.font-stylebutton{
+.font-type5{ /*Button font*/
     font-size: 1.0rem!important;
 }
 
 
 @media screen and (max-width: 450px) {
 
-    .font-style3{
+    .font-type4{
         font-size: 1rem!important;
     }
 
-    .font-stylebutton{
-        font-size: 1.0rem!important;
+    .font-type5{
+        font-size: 0.9rem!important;
     }
 }
 
