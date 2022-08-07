@@ -600,3 +600,297 @@ body {
     border-radius: 20px;
   }
 }
+
+/*----------------------------Malaysia-------------------------------------------------------------------*/
+/*navi-home*/
+.nav-bookmark-malaysia img{
+  position: absolute;
+  left: 4vw;
+  top: 0px;
+  width: calc(11rem + .5vw)!important;
+  transition: 0.5s;
+  background-color: #7FB5FF;
+  padding: 35px 15px 30px 15px; /*top right bottom left*/
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 5px 5px rgba(40, 40, 41, 0.334);
+}
+
+.nav-bookmark-malaysia img:hover{
+  background-color: #131aeb;
+}
+
+.nav-color-malaysia{
+  background-color: #F6F5F5;
+  color: #7FB5FF;
+}
+
+.font-color-malaysia{
+  color: #7FB5FF;
+  font-weight: 600;
+}
+
+.nav-a-link-malaysia a {
+  font-weight: 700;
+  background-image: linear-gradient(
+    to right,
+    #131aeb,
+    #131aeb 50%,
+    #7FB5FF 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 10px;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-a-link-malaysia a:before{
+  content: '';
+  background: #131aeb;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-a-link-malaysia a:hover {
+ background-position: 0;
+}
+
+.nav-a-link-malaysia a:hover::before{
+  width: 100%;
+}
+
+.bg-color-footer-malaysia{
+  background-color: #7FB5FF;
+}
+
+@media all and (max-width: 992px){
+
+  .nav-bookmark-malaysia img{
+    width: calc(9rem + .5vw)!important;
+    padding: 35px 15px 30px 15px; /*top right bottom left*/
+  }
+}
+
+@media all and (max-width: 768px){
+
+  .nav-bookmark-malaysia img{
+    width: calc(8rem + .5vw)!important;
+    padding: 30px 10px 30px 10px; /*top right bottom left*/
+  }
+}
+
+
+@media all and (max-width: 550px) {
+
+  .nav-bookmark-malaysia img{
+    width: calc(7rem + .5vw)!important;
+    padding: 25px 8px 25px 8px; /*top right bottom left*/
+  }
+}
+
+.top-background-malaysia-culture{
+  background-image: url(../images/home/malaysiaday.jpg);
+  background-position: bottom;
+  background-size: cover;
+  padding: 10% 5%;
+}
+
+.top-background-malaysia-food{
+  background-image: url(../images/home/malaysiafood.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 10% 5%;
+}
+
+.top-background-malaysia-festival{
+  background-image: url(../images/home/malaysia.png);
+  background-position: center;
+  background-size: cover;
+  padding: 10% 5%;
+}
+
+.heading-container-malaysia{
+  background-color: #F6F5F5;
+  color: #7FB5FF;
+  word-wrap: normal;
+  width: 50%;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 540px){
+  .heading-container-malaysia{
+    margin-top: 20%;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 414px){
+  .heading-container-malaysia{
+    margin-top: 30%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+}
+
+/*----------------------------Japan-------------------------------------------------------------------*/
+/*navi-home*/
+.nav-bookmark-japan img{
+  position: absolute;
+  left: 4vw;
+  top: 0px;
+  width: calc(11rem + .5vw)!important;
+  transition: 0.5s;
+  background-color: #C689C6;
+  padding: 35px 15px 30px 15px; /*top right bottom left*/
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 5px 5px rgba(40, 40, 41, 0.334);
+}
+
+.nav-bookmark-japan img:hover{
+  background-color: #ff00bf;
+}
+
+.nav-color-japan{
+  background-color: #F6F5F5;
+  color: #C689C6;
+}
+
+.font-color-japan{
+  color: #C689C6;
+  font-weight: 600;
+}
+
+.nav-a-link-japan a {
+  font-weight: 700;
+  background-image: linear-gradient(
+    to right,
+    #ff00bf,
+    #ff00bf 50%,
+    #C689C6 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 10px;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-a-link-japan a:before{
+  content: '';
+  background: #ff00bf;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-a-link-japan a:hover {
+ background-position: 0;
+}
+
+.nav-a-link-japan a:hover::before{
+  width: 100%;
+}
+
+.bg-color-footer-japan{
+  background-color: #C689C6;
+}
+
+@media all and (max-width: 992px){
+
+  .nav-bookmark-japan img{
+    width: calc(9rem + .5vw)!important;
+    padding: 35px 15px 30px 15px; /*top right bottom left*/
+  }
+}
+
+@media all and (max-width: 768px){
+
+  .nav-bookmark-japan img{
+    width: calc(8rem + .5vw)!important;
+    padding: 30px 10px 30px 10px; /*top right bottom left*/
+  }
+}
+
+
+@media all and (max-width: 550px) {
+
+  .nav-bookmark-japan img{
+    width: calc(7rem + .5vw)!important;
+    padding: 25px 8px 25px 8px; /*top right bottom left*/
+  }
+}
+
+.top-background-japan-culture{
+  background-image: url(../images/home/japan2.png);
+  background-position: center;
+  background-size: cover;
+  padding: 10% 5%;
+}
+
+.top-background-japan-food{
+  background-image: url(../images/home/japanfood.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 10% 5%;
+}
+
+.top-background-japan-festival{
+  background-image: url(../images/home/japanfestival.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 10% 5%;
+}
+
+.heading-container-japan{
+  background-color: #F6F5F5;
+  color: #C689C6;
+  word-wrap: normal;
+  width: 50%;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 540px){
+  .heading-container-japan{
+    margin-top: 20%;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 414px){
+  .heading-container-japan{
+    margin-top: 30%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+}
