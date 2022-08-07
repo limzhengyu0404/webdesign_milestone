@@ -1,70 +1,100 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--bootstrap 5.2-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.101.0">
+
+  <title>Navbar Template · Bootstrap v5.2</title>
+
+  <!--Bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-    crossorigin="anonymous"></script>
-  <!--Fontawesome-->
-  <script src="https://kit.fontawesome.com/13427233db.js" crossorigin="anonymous"></script>
+  integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
   <!--google font-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&display=swap"
     rel="stylesheet">
-  <!--css files-->
-  <link rel="stylesheet" href="css/styles.css">
-  <title>Home</title>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/navbar.css" rel="stylesheet">
 </head>
 
 <body>
-  <!--NavBar-->
-  <nav class="navbar navbar-expand-lg bg-light fixed-top">
+  <!--Start Nav Bar-->
+  <nav class="navbar navbar-expand-lg nav-color-home" id="navbar-fixedtop" aria-label="Offcanvas navbar large">
+    <!--change here-->
     <div class="container-fluid">
-      <div>
-        <a class="navbar-brand noappear" href="index.html">asas</a>
-      </div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand background-color-home font-type5" href="#"> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+        aria-controls="offcanvasNavbar2">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item font-type4">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item font-type4">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item dropdown font-type4">
-            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">Culture</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item font-type5" href="#">Malaysia Culture</a></li>
-              <li><a class="dropdown-item font-type5" href="#">Japan Culture</a></li>
-              <li><a class="dropdown-item font-type5" href="#">Chinese Culture</a></li>
-              <li><a class="dropdown-item font-type5" href="#">Korean Culture</a></li>
-            </ul>
-          </li>
-          <li class="nav-item font-type4">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
+      <div class="offcanvas offcanvas-width offcanvas-end nav-color-home nav-a-link" tabindex="-1" id="offcanvasNavbar2"
+        aria-labelledby="offcanvasNavbar2Label">
+        <div class="offcanvas-header">
+          <!--<h5 class="offcanvas-title nav-color-home font-type3 text-dark" id="offcanvasNavbar2Label"></h5>-->
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item mx-3">
+              <a class="nav-link font-type5 font-color-home" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item dropdown mx-3">
+              <a class="nav-link dropdown-toggle font-type5 font-color-home" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                CULTURE
+              </a>
+              <ul class="dropdown-menu animated slideInd">
+                <li><a class="dropdown-item font-type5 font-color-home" href="malaysia.html">Malaysia Culture</a></li>
+                <li><a class="dropdown-item font-type5 font-color-home" href="japan.html">Japan Culture</a></li>
+                <li><a class="dropdown-item font-type5 font-color-home" href="chinese.html">Chinese Culture</a></li>
+                <li><a class="dropdown-item font-type5 font-color-home" href="korean.html">Korean Culture</a></li>
+              </ul>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link font-type5 font-color-home" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link font-type5 font-color-home" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
     <div class="nav-bookmark">
-      <img src="images/home/icon2.png" alt="">
+      <a href="index.html"><img src="images/home/icon2.png" alt=""></a>
     </div>
   </nav>
+  <!--End Nav Bar-->
 
-  <div class="container-fluid" style="height: 1000px; background-color:green;">
-
+  <div class="container-fluid w-100 top-background-home">
+    <div class="container heading-container text-center text-wrap font-type1 fst-italic">
+      HELLO WORLD
+    </div>
   </div>
+<!--End of top container-->
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar-fixedtop").style.top = "0";
+      } else {
+        document.getElementById("navbar-fixedtop").style.top = "-150px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+  </script>
 
 </body>
 

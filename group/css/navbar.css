@@ -4,6 +4,26 @@ body {
   max-width: 1800px;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
 .navbar {
   margin-bottom: 20px;
   margin: auto;
@@ -240,4 +260,42 @@ body {
 .slideInd {
   -webkit-animation-name: slideIn;
   animation-name: slideIn;
+}
+
+/*Top Heading container*/
+
+.top-background-home{
+  background-image: url(../images/home/background1.png);
+  background-size: cover;
+  padding: 10% 5%;
+}
+
+.heading-container{
+  background-color: #F6F5F5;
+  color: #3672B5;
+  word-wrap: normal;
+  width: 50%;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 540px){
+  .heading-container{
+    margin-top: 20%;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 414px){
+  .heading-container{
+    margin-top: 30%;
+    padding: 20px;
+    border-radius: 20px;
+  }
 }
