@@ -52,6 +52,7 @@ body {
 
 /*Navi Part*/
 #navbar-fixedtop{
+  z-index: 1;
   position: fixed;
   top: 0;
   width: 100%;
@@ -90,6 +91,7 @@ body {
 }
 
 .nav-a-link a {
+  font-weight: 700;
   background-image: linear-gradient(
     to right,
     #13d7d4,
