@@ -6,6 +6,29 @@
     background-color: #D6E6F2;
 }
 
+.bg-home2 {
+    background-image: url(../images/home/newera.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #B9D7EA;
+}
+
+.bg-home-malaysia{
+    background-color: #97BFED;
+}
+
+.bg-home-japan{
+    background-color: #C689C6;
+}
+
+.bg-home-chinese{
+    background-color: #f99100;
+}
+
+.bg-home-korean{
+    background-color: #4A8E40;
+}
+
 .wc-1 {
     width: 60%;
 }
@@ -14,14 +37,19 @@
     width: 40%;
 }
 
+.displayr-l{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 @media screen and (max-width: 1200px) {
 
     .wc-1 {
-        width: 70%;
+        width: 100%;
     }
 
     .wc-2 {
-        width: 30%;
+        width: 100%;
     }
 
 }
@@ -32,3 +60,85 @@
     }
 }
 
+.button-c {
+    border-radius: 4px;
+    background-color: #000000;
+    border: none;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+}
+
+.button-c {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button-c:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.button-c:hover {
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+.button-c:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+
+.thumbnail-c{
+}
+.picture1-c{
+    animation: fade-in 1.5s;
+}
+
+.picture2-c {
+    display: none;
+}
+.thumbnail-c:hover .picture1-c {
+    display: none;
+}
+.thumbnail-c:hover .picture2-c {
+    display: block;
+    animation: fade-in 1.5s;
+}
+
+@keyframes fade-in {
+    0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.aboutpic img{
+    width: 200px;
+}
+
+.aboutpic > div{
+    margin: 2.5%;
+}
+
+@media screen and (max-width: 700px){
+
+    .aboutpic img{
+        width: 150px;
+    }
+
+}
+
+@media screen and (max-width: 540px){
+
+    .aboutpic img{
+        width: 120px;
+    }
+
+}
