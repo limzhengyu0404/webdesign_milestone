@@ -79,6 +79,7 @@ body {
   transition: 1s;
 }
 
+/*navi-home*/
 .nav-bookmark img{
   position: absolute;
   left: 4vw;
@@ -90,6 +91,10 @@ body {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   box-shadow: 0px 5px 5px rgba(40, 40, 41, 0.334);
+}
+
+.nav-bookmark img:hover{
+  background-color: #13d7d4;
 }
 
 .nav-color-home{
@@ -150,6 +155,10 @@ body {
 
 .offcanvas-width{
   --bs-offcanvas-width: 40vw;
+}
+
+.bg-color-footer-home{
+  background-color: #769FCD;
 }
 
 @media all and (min-width: 992px) {
@@ -294,6 +303,298 @@ body {
 
 @media screen and (max-width: 414px){
   .heading-container{
+    margin-top: 30%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+}
+
+/*----------------------------Korean-------------------------------------------------------------------*/
+/*navi-home*/
+.nav-bookmark-korean img{
+  position: absolute;
+  left: 4vw;
+  top: 0px;
+  width: calc(11rem + .5vw)!important;
+  transition: 0.5s;
+  background-color: #4A8E40;
+  padding: 35px 15px 30px 15px; /*top right bottom left*/
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 5px 5px rgba(40, 40, 41, 0.334);
+}
+
+.nav-bookmark-korean img:hover{
+  background-color: #13d7d4;
+}
+
+.nav-color-korean{
+  background-color: #F6F5F5;
+  color: #4A8E40;
+}
+
+.font-color-korean{
+  color: #4A8E40;
+  font-weight: 600;
+}
+
+.nav-a-link-korean a {
+  font-weight: 700;
+  background-image: linear-gradient(
+    to right,
+    #C1DF82,
+    #C1DF82 50%,
+    #4A8E40 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 10px;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-a-link-korean a:before{
+  content: '';
+  background: #C1DF82;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-a-link-korean a:hover {
+ background-position: 0;
+}
+
+.nav-a-link-korean a:hover::before{
+  width: 100%;
+}
+
+.bg-color-footer-korean{
+  background-color: #4A8E40;
+}
+
+@media all and (max-width: 992px){
+
+  .nav-bookmark-korean img{
+    width: calc(9rem + .5vw)!important;
+    padding: 35px 15px 30px 15px; /*top right bottom left*/
+  }
+}
+
+@media all and (max-width: 768px){
+
+  .nav-bookmark-korean img{
+    width: calc(8rem + .5vw)!important;
+    padding: 30px 10px 30px 10px; /*top right bottom left*/
+  }
+}
+
+
+@media all and (max-width: 550px) {
+
+  .nav-bookmark-korean img{
+    width: calc(7rem + .5vw)!important;
+    padding: 25px 8px 25px 8px; /*top right bottom left*/
+  }
+}
+
+.top-background-korean-culture{
+  background-image: url(../images/home/korean.png);
+  background-size: cover;
+  padding: 10% 5%;
+}
+
+.top-background-korean-food{
+  background-image: url(../images/home/kroeanfood.png);
+  background-position: center;
+  background-size: cover;
+  padding: 10% 5%;
+}
+
+.top-background-korean-festival{
+  background-image: url(../images/home/koreanfestival.png);
+  background-position: center;
+  background-size: cover;
+  padding: 10% 5%;
+}
+
+.heading-container-korean{
+  background-color: #F6F5F5;
+  color: #4A8E40;
+  word-wrap: normal;
+  width: 50%;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 540px){
+  .heading-container-korean{
+    margin-top: 20%;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 414px){
+  .heading-container-korean{
+    margin-top: 30%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+}
+
+/*----------------------------Chinese-------------------------------------------------------------------*/
+/*navi-home*/
+.nav-bookmark-chinese img{
+  position: absolute;
+  left: 4vw;
+  top: 0px;
+  width: calc(11rem + .5vw)!important;
+  transition: 0.5s;
+  background-color: #f99100;
+  padding: 35px 15px 30px 15px; /*top right bottom left*/
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 5px 5px rgba(40, 40, 41, 0.334);
+}
+
+.nav-bookmark-chinese img:hover{
+  background-color: #ff0000;
+}
+
+.nav-color-chinese{
+  background-color: #F6F5F5;
+  color: #f99100;
+}
+
+.font-color-chinese{
+  color: #f99100;
+  font-weight: 600;
+}
+
+.nav-a-link-chinese a {
+  font-weight: 700;
+  background-image: linear-gradient(
+    to right,
+    #ff0000,
+    #ff0000 50%,
+    #f99100 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 10px;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-a-link-chinese a:before{
+  content: '';
+  background: #ff0000;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-a-link-chinese a:hover {
+ background-position: 0;
+}
+
+.nav-a-link-chinese a:hover::before{
+  width: 100%;
+}
+
+.bg-color-footer-chinese{
+  background-color: #f99100;
+}
+
+@media all and (max-width: 992px){
+
+  .nav-bookmark-chinese img{
+    width: calc(9rem + .5vw)!important;
+    padding: 35px 15px 30px 15px; /*top right bottom left*/
+  }
+}
+
+@media all and (max-width: 768px){
+
+  .nav-bookmark-chinese img{
+    width: calc(8rem + .5vw)!important;
+    padding: 30px 10px 30px 10px; /*top right bottom left*/
+  }
+}
+
+
+@media all and (max-width: 550px) {
+
+  .nav-bookmark-chinese img{
+    width: calc(7rem + .5vw)!important;
+    padding: 25px 8px 25px 8px; /*top right bottom left*/
+  }
+}
+
+.top-background-chinese-culture{
+  background-image: url(../images/home/china.png);
+  background-position: center;
+  background-size: cover;
+  padding: 10% 5%;
+}
+
+.top-background-chinese-food{
+  background-image: url(../images/home/chinesefood.jpg);
+  background-size: cover;
+  padding: 10% 5%;
+}
+
+.top-background-chinese-festival{
+  background-image: url(../images/china/chinese-culture-cover.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 10% 5%;
+}
+
+.heading-container-chinese{
+  background-color: #F6F5F5;
+  color: #f99100;
+  word-wrap: normal;
+  width: 50%;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 540px){
+  .heading-container-chinese{
+    margin-top: 20%;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 414px){
+  .heading-container-chinese{
     margin-top: 30%;
     padding: 20px;
     border-radius: 20px;
