@@ -7,82 +7,86 @@
   <meta name="description" content="">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Hugo 0.101.0">
+  
   <title>Navbar Template · Bootstrap v5.2</title>
-  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/navbars-offcanvas/">
+
+  <!--google font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/navbar.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" aria-label="Offcanvas navbar large">
+  <nav class="navbar navbar-expand-lg nav-color-home" id="navbar-fixedtop" aria-label="Offcanvas navbar large"> <!--change here-->
     <div class="container-fluid">
-      <a class="navbar-brand text-dark" href="#">displaynone</a>
+      <a class="navbar-brand background-color-home font-type5" href="#"> </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
         aria-controls="offcanvasNavbar2">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+      <div class="offcanvas offcanvas-width offcanvas-end nav-color-home nav-a-link" tabindex="-1" id="offcanvasNavbar2"
         aria-labelledby="offcanvasNavbar2Label">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Offcanvas</h5>
+          <!--<h5 class="offcanvas-title nav-color-home font-type3 text-dark" id="offcanvasNavbar2Label"></h5>-->
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
             aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <li class="nav-item mx-3">
+              <a class="nav-link font-type5 font-color-home" aria-current="page" href="#">HOME</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+            <li class="nav-item dropdown mx-3">
+              <a class="nav-link dropdown-toggle font-type5 font-color-home" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
-                Dropdown
+                CULTURE
               </a>
-              <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <ul class="dropdown-menu animated slideInd">
+                <li><a class="dropdown-item font-type5 font-color-home" href="#">Malaysia Culture</a></li>
+                <li><a class="dropdown-item font-type5 font-color-home" href="#">Japan Culture</a></li>
+                <li><a class="dropdown-item font-type5 font-color-home" href="#">Chinese Culture</a></li>
+                <li><a class="dropdown-item font-type5 font-color-home" href="#">Korean Culture</a></li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+            <li class="nav-item mx-3">
+              <a class="nav-link font-type5 font-color-home" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link font-type5 font-color-home" href="#">CONTACT</a>
             </li>
           </ul>
         </div>
       </div>
     </div>
     <div class="nav-bookmark">
-      <img src="images/home/icon2.png" alt="">
+      <a href=""><img src="images/home/icon2.png" alt=""></a>
     </div>
   </nav>
+<!--End Nav Bar-->
 
-  <div class="container my-5">
-    <div class="bg-light p-5 rounded">
-      <div class="col-sm-8 py-5 mx-auto">
-        <h1 class="display-5 fw-normal">Navbar with offcanvas examples</h1>
-        <p class="fs-5">This example shows how responsive offcanvas menus work within the navbar. For positioning of
-          navbars, checkout the <a href="../examples/navbar-static/">top</a> and <a
-            href="../examples/navbar-fixed/">fixed top</a> examples.</p>
-        <p>From the top down, you'll see a dark navbar, light navbar and a responsive navbar—each with offcanvases built
-          in. Resize your browser window to the large breakpoint to see the toggle for the offcanvas.</p>
-        <p>
-          <a class="btn btn-primary" href="../components/navbar/#offcanvas" role="button">Learn more about offcanvas
-            navbars &raquo;</a>
-        </p>
-      </div>
-    </div>
-  </div>
+<div class="container-fluid bg-dark" style="height:1000px;">
+
+</div>
 
 
   <script src="js/bootstrap.bundle.min.js"></script>
-
+  <script>
+    var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar-fixedtop").style.top = "0";
+  } else {
+    document.getElementById("navbar-fixedtop").style.top = "-150px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+  </script>
 
 </body>
 
