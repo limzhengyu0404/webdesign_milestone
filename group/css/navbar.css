@@ -609,7 +609,7 @@ body {
   top: 0px;
   width: calc(11rem + .5vw)!important;
   transition: 0.5s;
-  background-color: #7FB5FF;
+  background-color: #3F94F3;
   padding: 35px 15px 30px 15px; /*top right bottom left*/
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -636,7 +636,7 @@ body {
     to right,
     #131aeb,
     #131aeb 50%,
-    #7FB5FF 50%
+    #3F94F3 50%
   );
   background-size: 200% 100%;
   background-position: -100%;
@@ -669,7 +669,7 @@ body {
 }
 
 .bg-color-footer-malaysia{
-  background-color: #7FB5FF;
+  background-color: #3F94F3;
 }
 
 @media all and (max-width: 992px){
