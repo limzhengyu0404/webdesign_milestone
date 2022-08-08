@@ -92,7 +92,7 @@
     <!--End of top container-->
 
     <!--Home Container1-->
-    <div class="container-fluid displayf-b p-5 reveal">
+    <div class="container-fluid displayf-b p-5">
         <div class="container-fluid w-100 m-auto">
             <p class="font-type3">What is Culture</p>
             <p class="font-type5">Culture is considered a central concept in anthropology, encompassing the range of
@@ -107,7 +107,7 @@
     <!--Home Container2-->
     <div class="container-fluid py-4 px-0 bg-home1">
         <!--Malaysia card-->
-        <div class="card mb-5 bg-home-malaysia shadow rounded reveal">
+        <div class="card mb-5 bg-home-malaysia shadow rounded reveal-c">
             <div class="row g-0">
                 <div class="col-md-4 wc-1">
                     <img src="images/home/malaysia.png" class="rounded-start w-100" alt="...">
@@ -130,7 +130,7 @@
         </div>
 
         <!--Japan card-->
-        <div class="card mb-5 ms-auto bg-home-japan shadow rounded reveal">
+        <div class="card mb-5 ms-auto bg-home-japan shadow rounded reveal-c">
             <div class="row g-0 displayr-l">
                 <div class="col-md-4 wc-1">
                     <img src="images/home/japan2.png" class="rounded-start w-100" alt="...">
@@ -152,7 +152,7 @@
         </div>
 
         <!--Chinese card-->
-        <div class="card mb-5 bg-home-chinese shadow rounded reveal">
+        <div class="card mb-5 bg-home-chinese shadow rounded reveal-c">
             <div class="row g-0">
                 <div class="col-md-4 wc-1">
                     <img src="images/home/china.png" class="rounded-start w-100" alt="...">
@@ -174,7 +174,7 @@
         </div>
 
         <!--Korean card-->
-        <div class="card mb-5 ms-auto bg-home-korean shadow rounded reveal">
+        <div class="card mb-5 ms-auto bg-home-korean shadow rounded reveal-c">
             <div class="row g-0 displayr-l">
                 <div class="col-md-4 wc-1">
                     <img src="images/home/korean.png" class="rounded-start w-100" alt="...">
@@ -225,7 +225,7 @@
     </div>
 
     <!--About container-->
-    <div class="container-fluid d-block bg-home2 py-5 reveal">
+    <div class="container-fluid d-block bg-home2 py-5 reveal-c">
         <div class="d-block px-5">
             <p class="font-type3">About Us</p>
             <p class="font-type5">Who are we? We are student who came from New Era University College.</p>
@@ -350,22 +350,22 @@
         }
 
         function reveal() {
-  var reveals = document.querySelectorAll(".reveal");
+            var reveals = document.querySelectorAll(".reveal-c");
 
-  for (var i = 0; i < reveals.length; i++) {
-    var windowHeight = window.innerHeight;
-    var elementTop = reveals[i].getBoundingClientRect().top;
-    var elementVisible = 150;
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
 
-    if (elementTop < windowHeight - elementVisible) {
-      reveals[i].classList.add("active");
-    } else {
-      reveals[i].classList.remove("active");
-    }
-  }
-}
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                } else {
+                    reveals[i].classList.remove("active");
+                }
+            }
+        }
 
-window.addEventListener("scroll", reveal);
+        window.addEventListener("scroll", reveal);
     </script>
 
 </body>
