@@ -325,7 +325,7 @@ body {
 }
 
 .nav-bookmark-korean img:hover{
-  background-color: #13d7d4;
+  background-color: #C1DF82;
 }
 
 .nav-color-korean{
@@ -407,6 +407,7 @@ body {
 
 .top-background-korean-culture{
   background-image: url(../images/home/korean.png);
+  background-position: 55% 30%;
   background-size: cover;
   padding: 10% 5%;
 }

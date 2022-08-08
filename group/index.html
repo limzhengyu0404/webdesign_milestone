@@ -121,7 +121,8 @@
                             Malays as well as large populations of Chinese, and Indians. When visiting the country it is
                             clear that the ethnicities retain their religions, customs and way of life.
                         </p>
-                        <button class="button-c"><a href="malaysia.html" class="text-decoration-none text-light font-type6">Read
+                        <button class="button-c"><a href="malaysia.html"
+                                class="text-decoration-none text-light font-type6">Read
                                 More</a></button>
                     </div>
                 </div>
@@ -138,9 +139,12 @@
                     <div class="card-body">
                         <div><img src="images/home/jf.png" alt=""></div>
                         <h5 class="font-type3">Japan Culture</h5>
-                        <p class="font-type5">The culture of Japan has changed greatly over the millennia, from the country's prehistoric Jōmon period, to its contemporary modern culture, which absorbs influences from Asia and other regions of the world.
+                        <p class="font-type5">The culture of Japan has changed greatly over the millennia, from the
+                            country's prehistoric Jōmon period, to its contemporary modern culture, which absorbs
+                            influences from Asia and other regions of the world.
                         </p>
-                        <button class="button-c"><a href="japan.html" class="text-decoration-none text-light font-type6">Read
+                        <button class="button-c"><a href="japan.html"
+                                class="text-decoration-none text-light font-type6">Read
                                 More</a></button>
                     </div>
                 </div>
@@ -157,9 +161,12 @@
                     <div class="card-body">
                         <div><img src="images/home/cf.png" alt=""></div>
                         <h5 class="font-type3">Chinese Culture</h5>
-                        <p class="font-type5">Chinese culture is one of the world's oldest cultures, originating thousands of years ago. The culture prevails across a large geographical region in East Asia and is extremely diverse and varying.
+                        <p class="font-type5">Chinese culture is one of the world's oldest cultures, originating
+                            thousands of years ago. The culture prevails across a large geographical region in East Asia
+                            and is extremely diverse and varying.
                         </p>
-                        <button class="button-c"><a href="chinese.html" class="text-decoration-none text-light font-type6">Read
+                        <button class="button-c"><a href="chinese.html"
+                                class="text-decoration-none text-light font-type6">Read
                                 More</a></button>
                     </div>
                 </div>
@@ -176,9 +183,12 @@
                     <div class="card-body">
                         <div><img src="images/home/kf.png" alt=""></div>
                         <h5 class="font-type3">Korean Culture</h5>
-                        <p class="font-type5">The Korean peninsula, consisting of North and South Korea, is one of the most homogeneous regions in the world. Meaning that almost everyone residing in any part of the region is ethnically Korean.
+                        <p class="font-type5">The Korean peninsula, consisting of North and South Korea, is one of the
+                            most homogeneous regions in the world. Meaning that almost everyone residing in any part of
+                            the region is ethnically Korean.
                         </p>
-                        <button class="button-c"><a href="korean.html" class="text-decoration-none text-light font-type6">Read
+                        <button class="button-c"><a href="korean.html"
+                                class="text-decoration-none text-light font-type6">Read
                                 More</a></button>
                     </div>
                 </div>
@@ -219,7 +229,8 @@
         <div class="d-block px-5">
             <p class="font-type3">About Us</p>
             <p class="font-type5">Who are we? We are student who came from New Era University College.</p>
-            <button class="button-c"><a href="about.html" class="text-decoration-none text-light font-type6">Read More</a></button>
+            <button class="button-c"><a href="about.html" class="text-decoration-none text-light font-type6">Read
+                    More</a></button>
         </div>
         <div class="aboutpic w-100 d-flex flex-wrap justify-content-evenly">
             <div><img src="images/home/people1.png" alt=""></div>
@@ -337,6 +348,24 @@
             }
             prevScrollpos = currentScrollPos;
         }
+
+        function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
     </script>
 
 </body>
