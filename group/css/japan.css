@@ -91,6 +91,15 @@
   margin-top: 18px;
 }
 
+.linkdecorate{
+  text-decoration: none;
+  color: black;
+}
+
+.linkdecorate a:active{
+  color: black;
+}
+
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
@@ -193,11 +202,11 @@ input{
 	display: flex;
 }
 #cover{
-	width: 420px;
+	width: 450px;
 	height: 400px;
 }
 .flip-book{
-	width: 420px;
+	width: 450px;
 	height: 400px;
 	position: relative;
 	perspective: 1500px;
