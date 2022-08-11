@@ -356,7 +356,7 @@ input{
 	}
 }
 
-@media screen and (max-width:775px){
+@media screen and (max-width:935px){
   .samurai{
     display: none;
   }
