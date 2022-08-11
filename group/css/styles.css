@@ -3,7 +3,7 @@
 }
 
 .bg-home1 {
-    background-color: #D6E6F2;
+    background-color: #F6F5F5;
 }
 
 .bg-home2 {
@@ -14,7 +14,7 @@
 }
 
 .bg-home-malaysia {
-    background-color: #3F94F3;
+    background-color: #7baae0;
 }
 
 .bg-home-japan {
@@ -26,7 +26,7 @@
 }
 
 .bg-home-korean {
-    background-color: #4A8E40;
+    background-color: #C1DF82;
 }
 
 .wc-1 {
@@ -329,4 +329,10 @@
     /* Scaling button to 0.98 to its original size */
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
     /* Lowering the shadow */
+}
+
+.abouticon{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    transition: color 0.5s ease;
 }
