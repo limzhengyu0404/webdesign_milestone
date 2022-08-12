@@ -7,7 +7,7 @@
   margin: 10px 20px;
   min-width: 230px;
   max-width: 295px;
-  min-height: 198px;
+  min-height: 184px;
   width: 100%;
   color: #ffffff;
   text-align: right;
@@ -29,7 +29,10 @@
   width: 100%;
   -webkit-transform: translate(0%, -50%);
   transform: translate(0%, -50%);
+  
 }
+
+
 .snip1482 figcaption {
   position: absolute;
   width: 50%;
@@ -92,13 +95,15 @@
 }
 
 .linkdecorate{
-  text-decoration: none;
+  
   color: black;
 }
 
 .linkdecorate a:active{
   color: black;
 }
+
+
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
@@ -169,6 +174,10 @@ body{
   background-color: #FCC5C0;
 }
 
+.containerbackcolor{
+  background-color: #FCC5C0;
+}
+
 .fourthback{
 	background-color: #FCC5C0;
 }
@@ -233,7 +242,7 @@ input{
 	left: 0;
 	background-color: #E8A0BF;
 	box-sizing: border-box;
-	padding: 0 13px;
+	padding: 0px 30px;
 	box-shadow: inset 20px 0 50px rgba(0,0,0,0.5) 0 2px 5px rgba(0,0,0,.5);
 }
 .back{
@@ -321,9 +330,6 @@ input{
   border: #ECD6AC 3px solid;
 }
 
-.iconsmall{
-  width: 20px;
-}
 
 @media screen and (max-width: 450px) {
 
@@ -344,7 +350,7 @@ input{
 
 
 
-@media screen and (max-width:888px){
+@media screen and (max-width:940px){
 	#cover{
 		width: 340px;
 		height: 360px;
