@@ -286,28 +286,7 @@ input{
 	z-index: 2;
 }
 
-.font-type2 {
-  /*Subheading 1*/
-  font-size: calc(2rem + .5vw) !important;
-  font-weight: 700;
-}
 
-.font-type3 {
-  /*Subheading 2*/
-  font-size: calc(1.5rem + .5vw) !important;
-  font-weight: 700;
-}
-
-.font-type5 {
-  /*Content font*/
-  font-size: 1.25rem !important;
-  font-weight: 400;
-}
-
-.font-type6 {
-  /*Button font*/
-  font-size: 1.0rem !important;
-}
 
 .para1color {
   background-color: #E8A0BF;
@@ -331,16 +310,7 @@ input{
 }
 
 
-@media screen and (max-width: 450px) {
 
-  .font-type5 {
-      font-size: 1rem !important;
-  }
-
-  .font-type6 {
-      font-size: 0.9rem !important;
-  }
-}
 
 @media screen and (max-width:1200px) {
   .content-box {
@@ -396,6 +366,10 @@ input{
   .sixpic2{
     height: 170px;
     width: 307px;
+  }
+
+  .twobook{
+    height: 600px;
   }
 
 }
