@@ -70,6 +70,7 @@
 .festival_image{
     max-height: 320px;
     max-width: 40%;
+    object-fit: cover;
 }
 .flag{
     max-width: 100px;
@@ -159,8 +160,10 @@
     background-color: black;
     color: white;
     text-align: center;
-    padding: 0px 20px;
     height: 100%;
+}
+.background_text{
+    padding: 0px 20px;
 }
 /* MoonCake Festival */
 #family_reunion_moon{

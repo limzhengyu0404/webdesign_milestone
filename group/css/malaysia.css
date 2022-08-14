@@ -1,3 +1,4 @@
+
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 @import url(https://fonts.googleapis.com/css?family=Fauna+One);
 .snip1482 {
@@ -6,7 +7,7 @@
   margin: 10px 20px;
   min-width: 230px;
   max-width: 295px;
-  min-height: 198px;
+  min-height: 184px;
   width: 100%;
   color: #ffffff;
   text-align: right;
@@ -165,6 +166,10 @@
 
 body{
   max-width: 1800px;
+  background-color: #C4DDFF;
+}
+
+.containerbackcolor{
   background-color: #C4DDFF;
 }
 
@@ -356,7 +361,7 @@ input{
 	}
 }
 
-@media screen and (max-width:935px){
+@media screen and (max-width:775px){
   .samurai{
     display: none;
   }

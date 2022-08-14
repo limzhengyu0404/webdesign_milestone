@@ -258,11 +258,10 @@ textarea {
     .contactbox1 {
         width: 95%;
         padding:20px;
-        margin: 20px;
+        margin: auto;
     }
 
     .contactboximg {
         width: 100%;
-        margin: 10px;
     }
 }
