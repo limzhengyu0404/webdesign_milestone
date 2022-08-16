@@ -92,7 +92,6 @@
 }
 
 .linkdecorate{
-  text-decoration: none;
   color: black;
 }
 
@@ -168,6 +167,9 @@ body{
   max-width: 1800px;
   background-color: #ffca3a;
 }
+.containerbackcolor{
+  background-color: #ffca3a;
+}
 
 .fourthback{
 	background-color: #ffca3a;
@@ -186,6 +188,7 @@ input{
 .imgs{
 	width: 100%;
 	height: 100%;
+  object-fit: cover;
 }
 
 .twobook{
@@ -232,7 +235,7 @@ input{
 	left: 0;
 	background-color: #F99100;
 	box-sizing: border-box;
-	padding: 0 13px;
+	padding: 0px 30px;
 	box-shadow: inset 20px 0 50px rgba(0,0,0,0.5) 0 2px 5px rgba(0,0,0,.5);
 }
 .back{
@@ -276,29 +279,6 @@ input{
 	z-index: 2;
 }
 
-.font-type2 {
-  /*Subheading 1*/
-  font-size: calc(2rem + .5vw) !important;
-  font-weight: 700;
-}
-
-.font-type3 {
-  /*Subheading 2*/
-  font-size: calc(1.5rem + .5vw) !important;
-  font-weight: 700;
-}
-
-.font-type5 {
-  /*Content font*/
-  font-size: 1.25rem !important;
-  font-weight: 400;
-}
-
-.font-type6 {
-  /*Button font*/
-  font-size: 1.0rem !important;
-}
-
 .para1color {
   background-color: #E8A0BF;
   
@@ -320,20 +300,6 @@ input{
   border: #ECD6AC 3px solid;
 }
 
-.iconsmall{
-  width: 20px;
-}
-
-@media screen and (max-width: 450px) {
-
-  .font-type5 {
-      font-size: 1rem !important;
-  }
-
-  .font-type6 {
-      font-size: 0.9rem !important;
-  }
-}
 
 @media screen and (max-width:1200px) {
   .content-box {
@@ -357,7 +323,7 @@ input{
 }
 
 @media screen and (max-width:775px){
-  .samurai{
+  .lantern{
     display: none;
   }
 }
@@ -389,6 +355,10 @@ input{
   .sixpic2{
     height: 170px;
     width: 307px;
+  }
+
+  .twobook{
+    height: 600px;
   }
 
 }
