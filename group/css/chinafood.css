@@ -5,7 +5,7 @@ body{
 }
 
 .fir-bg-color{
-    background-color: #C1DF82;
+    background-color: #ffca3a;
 }
 
 .content-box{
@@ -14,7 +14,7 @@ body{
 }
 
 .box-bg-color1{
-    background: linear-gradient(90deg,rgb(255, 183, 3) 0%,rgb(255, 183, 3) 72%,rgba(255,255,255,0) 72%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(90deg,rgb(249, 145, 0) 0%,rgb(255, 183, 3) 72%,rgba(255,255,255,0) 72%,rgba(255,255,255,0) 100%);
 }
 
 .box-bg-color2{
@@ -73,7 +73,7 @@ body{
 
 @media screen and (max-width: 767px){
     .box-bg-color1, .box-bg-color2{
-        background: linear-gradient(360deg,rgb(163, 192, 100) 0%,rgb(163, 192, 100) 80%,rgba(255,255,255,0) 80%,rgba(255,255,255,0) 100%);
+        background: linear-gradient(360deg,rgb(249, 145, 0) 0%,rgb(255, 183, 3) 80%,rgba(255,255,255,0) 80%,rgba(255,255,255,0) 100%);
     }
 
     .picture-size img{
@@ -98,7 +98,7 @@ body{
 
 @media screen and (max-width: 400px){
     .box-bg-color1, .box-bg-color2{
-        background: linear-gradient(360deg,rgb(163, 192, 100) 0%,rgb(163, 192, 100) 85%,rgba(255,255,255,0) 85%,rgba(255,255,255,0) 100%);
+        background: linear-gradient(360deg,rgb(249, 145, 0) 0%,rgb(255, 183, 3) 85%,rgba(255,255,255,0) 85%,rgba(255,255,255,0) 100%);
     }
     .picture-size img{
         width: 90%;
