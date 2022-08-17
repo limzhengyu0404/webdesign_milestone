@@ -1,10 +1,6 @@
 /* Body Image */
 #body_bg{
-    background-image: url("../images/china/bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: #FCC5C0;
+    background-color: #f8e2e0;
 }
 /* Festival */
 .festival_container{

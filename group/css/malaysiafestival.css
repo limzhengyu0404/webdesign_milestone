@@ -165,7 +165,7 @@
     background-size: cover;
 }
 #deumdol{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/malaysia/dress\ up\ for\ hari\ raya.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/malaysia/give\ green\ envelop.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -177,18 +177,18 @@
     background-size: cover;
 }
 #torch_lighting{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/malaysia/give\ green\ envelop.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/malaysia/dress\ up\ for\ hari\ raya.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .text-color-link{
-    color: #4A8E40;
+    color: #7FB5FF;
 }
 
 .text-color-link:hover{
-    color: #C1DF82;
+    color: #C4DDFF;
 }
 
 @media screen and (max-width: 992px) {
@@ -257,12 +257,13 @@
 }
 
 .previous-pic{
-    background-image:  radial-gradient(   #0000007e, rgba(245, 246, 252, 0)), url('../images/home/malaysiaday.jpg');
+    background-image:  radial-gradient( #0000007e, rgba(245, 246, 252, 0)), url('../images/home/malaysiaday.jpg');
     background-repeat: no-repeat;
     background-size: 125%;
-    background-position: 50% 25%;
+    background-position:center;
     transition: 1s ease all;
     background-blend-mode:multiply;
+
   }
 
   .previous-pic:hover{
