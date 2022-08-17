@@ -27,9 +27,14 @@
   top: 50%;
   opacity: 1;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   -webkit-transform: translate(0%, -50%);
   transform: translate(0%, -50%);
+  
 }
+
+
 .snip1482 figcaption {
   position: absolute;
   width: 50%;
@@ -57,6 +62,7 @@
 .snip1482:hover .tpic,
 .snip1482.hover .tpic {
   width: 55%;
+  height: 55%;
   right: -10%;
 }
 
@@ -92,13 +98,15 @@
 }
 
 .linkdecorate{
-  text-decoration: none;
+  
   color: black;
 }
 
 .linkdecorate a:active{
   color: black;
 }
+
+
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
@@ -237,7 +245,7 @@ input{
 	left: 0;
 	background-color: #6798dd;
 	box-sizing: border-box;
-	padding: 0 13px;
+	padding: 0px 30px;
 	box-shadow: inset 20px 0 50px rgba(0,0,0,0.5) 0 2px 5px rgba(0,0,0,.5);
 }
 .back{
@@ -281,34 +289,12 @@ input{
 	z-index: 2;
 }
 
-.font-type2 {
-  /*Subheading 1*/
-  font-size: calc(2rem + .5vw) !important;
-  font-weight: 700;
-}
 
-.font-type3 {
-  /*Subheading 2*/
-  font-size: calc(1.5rem + .5vw) !important;
-  font-weight: 700;
-}
-
-.font-type5 {
-  /*Content font*/
-  font-size: 1.25rem !important;
-  font-weight: 400;
-}
-
-.font-type6 {
-  /*Button font*/
-  font-size: 1.0rem !important;
-}
 
 .para1color {
   background-color: #E8A0BF;
   
 }
-
 .content-box {
   max-width: 70%;
   margin: auto;
@@ -319,15 +305,19 @@ input{
   border: #79DAE8 3px solid;
   transition: 0.3s;
 }
-
+.btn-bg-color1 .color-text{
+  color: white;
+}
 .btn-bg-color1:hover{
   background: #0AA1DD;
   border: #79DAE8 3px solid;
 }
 
-.iconsmall{
-  width: 20px;
+.btn-bg-color1 .color-text:hover{
+  color: #79DAE8;
 }
+
+
 
 @media screen and (max-width: 450px) {
 
@@ -348,7 +338,7 @@ input{
 
 
 
-@media screen and (max-width:888px){
+@media screen and (max-width:940px){
 	#cover{
 		width: 340px;
 		height: 360px;
@@ -387,16 +377,20 @@ input{
    
     
     }
-  .sixpic{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-
-  .sixpic2{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+    .sixpic{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  
+    .sixpic2{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  
+  .twobook{
+    height: 600px;
   }
 
 }
