@@ -265,3 +265,21 @@ textarea {
         width: 100%;
     }
 }
+
+.formbg{
+    background-color: #ace9e8;
+}
+
+.formcolumn{
+    background-color: #ecf4f4;
+}
+
+@media screen and (max-width: 601px){
+    .formbg{
+        margin: 5% auto;
+    }
+
+    .form-bg2{
+        background-color: #ecf4f4;
+    }
+}

@@ -349,12 +349,15 @@ input{
     
     }
   .sixpic{
-    max-width: 307px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
 
   .sixpic2{
-    height: 170px;
-    width: 307px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
 
   .twobook{
