@@ -333,7 +333,7 @@ input{
 	}
 }
 
-@media screen and (max-width:775px){
+@media screen and (max-width:1330px){
   .samurai{
     display: none;
   }
