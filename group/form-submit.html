@@ -18,12 +18,11 @@
 
     <!--Font awesome-->
     <script src="https://kit.fontawesome.com/db1769a753.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 
     <!--css-->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/navbar.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/form-submit.css">
 </head>
 
 <body>
@@ -80,73 +79,17 @@
         </div>
     </nav>
     <!--End Nav Bar-->
-
-    <div class="container-fluid w-100 top-background-home">
-        <div class="container heading-container text-center text-wrap font-type1 fst-italic">
-            Contact
+    
+    <div class="submitcontaner pt-5">
+        
+        <div class="text-center font-type2">
+            <p>Thank You for your submition !</p>
+        <img src="images/thankyoupic.jpg">
+        </div>
+        <div class="text-center">
+        <a href="index.html"><button class="m-3 font-type4 btn gobackbtn">Go Back to Web</button></a>
         </div>
     </div>
-    <!--End of top container-->
-
-
-    <div class="map_form form-bg2">
-        <div class="map">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.3991435026605!2d101.7927654!3d2.9865988999999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cdcb841d3762c7%3A0x4dc97330d731c530!2sNew%20Era%20University%20College!5e0!3m2!1sen!2smy!4v1660313717880!5m2!1sen!2smy"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-
-        <div class="form formbg font-type5">
-
-            <form action="form-submit.html">
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Name :</label>
-                    <input type="Name" class="form-control formcolumn" id="exampleFormControlInput1" placeholder="Name"
-                        required>
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email address :</label>
-                    <input type="email" class="form-control formcolumn" id="exampleFormControlInput2"
-                        placeholder="...@example.com" required>
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Phone Number :</label>
-                    <input type="phone" class="form-control formcolumn" id="exampleFormControlInput3"
-                        placeholder="xxx-xxxxxxxxxx" required>
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Messages :</label>
-                    <textarea class="form-control formcolumn" id="exampleFormControlTextarea4"
-                        placeholder="Leave your comment here" rows="3"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-        </div>
-    </div>
-
-    <div class="mobile_map">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.3991435026605!2d101.7927654!3d2.9865988999999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cdcb841d3762c7%3A0x4dc97330d731c530!2sNew%20Era%20University%20College!5e0!3m2!1sen!2smy!4v1660313717880!5m2!1sen!2smy"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-
-    <div class="containerbox py-5">
-        <div class="contactbox">
-            <div class="contactboximg">
-                <img src="images/icon2.png" width="100%" alt="HelloWorld logo">
-            </div>
-            <div class="contactbox1 font-type5">
-                <p><strong>Address : </strong> Blok B&C, Lot, 5, Seksyen 10, Jalan Bukit, Taman Bukit Mewah, 43000
-                    Kajang, Selangor<br><br>
-                    <strong>Email : </strong> helloworld@gmail.com<br><br>
-                    <strong>Contact : </strong> (+60) 137272328
-                </p>
-            </div>
-        </div>
-    </div>
-
 
     <!--Footer-->
     <footer class="text-center text-lg-start text-dark bg-color-footer-home">
@@ -272,12 +215,6 @@
         }
 
         window.addEventListener("scroll", reveal);
-    </script>
-    <script>
-        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-            return new bootstrap.Popover(popoverTriggerEl)
-        })
     </script>
 
 </body>
