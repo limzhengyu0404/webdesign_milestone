@@ -300,6 +300,20 @@ input{
   border: #ECD6AC 3px solid;
 }
 
+.card-bg-color{
+  background: #faa906;
+}
+
+.card-bg-color-border{
+  background-color: #faa906;
+}
+
+.heightlimit{
+  height:200px;
+  width: 100%;
+  object-fit: cover;
+}
+
 
 @media screen and (max-width:1200px) {
   .content-box {

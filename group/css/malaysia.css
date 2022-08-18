@@ -317,6 +317,19 @@ input{
   color: #79DAE8;
 }
 
+.heightlimit{
+  height:200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-bg-color{
+  background: #6798dd;
+}
+
+.card-bg-color-border{
+  background-color: #6798dd;
+}
 
 
 @media screen and (max-width: 450px) {

@@ -316,7 +316,19 @@ input{
 .btn-bg-color1 .color-text:hover{
   color: #9EBC5F;
 }
+.card-bg-color{
+  background: #9EBC5F;
+}
 
+.card-bg-color-border{
+  background-color: #9EBC5F;
+}
+
+.heightlimit{
+  height:200px;
+  width: 100%;
+  object-fit: cover;
+}
 
 @media screen and (max-width: 450px) {
 
