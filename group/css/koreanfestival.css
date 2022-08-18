@@ -259,7 +259,7 @@
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 450px) {
     .activities_img{
         display: flex;
         align-items: center;
