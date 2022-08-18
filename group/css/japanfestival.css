@@ -56,25 +56,25 @@
 /* Activities Images Here */
 /* Japanese New Year */
 #house_cleaning{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/japan/dasaocu.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/dasaocu.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #eve_bell{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/japan/qiaozhong.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/qiaozhong.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #end_party{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/japan/wangnianhui.jpeg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/wangnianhui.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #japan_shopping{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/japan/banianhuo.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/banianhuo.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -95,25 +95,25 @@
 }
 /* Gion Matusuri Festival */
 #shinko_matsuri{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/japan/shinko.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/shinko.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #hanagasa_parade{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/japan/hanagasa.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/hanagasa.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #worship_moon{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/japan/tidengjie.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/tidengjie.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #tamahoko_parade{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/japan/carmoutain.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/carmoutain.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -197,7 +197,7 @@
   }
   
   .previous-pic{
-    background-image:  radial-gradient( #0000007e, rgba(245, 246, 252, 0)), url('../images/home/japan2.jpg');
+    background-image:  radial-gradient( #0000007e, rgba(245, 246, 252, 0)), url('../images/japan2.jpg');
     background-repeat: no-repeat;
     background-size: 125%;
     background-position:center;
@@ -206,7 +206,7 @@
   }
   
   .previous-pic:hover{
-    /*background-image: radial-gradient( rgba(245, 246, 252, 0), rgba(245, 246, 252, 0)), url('../images/home/koreanfestival.jpg');*/
+    /*background-image: radial-gradient( rgba(245, 246, 252, 0), rgba(245, 246, 252, 0)), url('../images/koreanfestival.jpg');*/
     
     background-size: 100%;
   }
@@ -226,7 +226,7 @@
   }
   
   .next-pic{
-    background-image:  radial-gradient( #0000007e, rgba(245, 246, 252, 0) ), url('../images/home/japanfood.jpg');
+    background-image:  radial-gradient( #0000007e, rgba(245, 246, 252, 0) ), url('../images/japanfood.jpg');
     background-repeat: no-repeat;
     background-size: 125%;
     background-position: center;
@@ -235,7 +235,7 @@
   }
   
   .next-pic:hover{
-    /*background-image: url('../images/home/kroeanfood.jpg');*/
+    /*background-image: url('../images/kroeanfood.jpg');*/
     background-size: 100%;
   }
   

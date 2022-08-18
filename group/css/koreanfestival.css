@@ -58,7 +58,7 @@
 
 /* Body Image */
 #body_bg{
-    background-image: url("../images/korean/bg-festival.png");
+    background-image: url("../images/bg-festival.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -123,25 +123,25 @@
 /* Activities Images Here */
 /* Chinese New Year */
 #lotus_lantern_parade{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/korean/Lotus_Lantern_Parade.png");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/Lotus_Lantern_Parade.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #exhibition_traditional_lanterns{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/korean/Exhibition_Traditional_Lanterns.png");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/Exhibition_Traditional_Lanterns.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #buddhist_culture_experiences{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/korean/Buddhist_Culture_Experiences.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/Buddhist_Culture_Experiences.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #grand_ornate_lanterns{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/korean/Grand_Ornate_Lanterns.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/Grand_Ornate_Lanterns.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -162,25 +162,25 @@
 }
 /* MoonCake Festival */
 #firework{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/korean/firework.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/firework.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #deumdol{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/korean/deugi.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/deugi.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #bunfire{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/korean/bonfire.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/bonfire.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #torch_lighting{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/korean/torch_lighting.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/torch_lighting.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -284,7 +284,7 @@
 }
 
 .previous-pic{
-    background-image:  radial-gradient(   #0000007e, rgba(245, 246, 252, 0)), url('../images/home/korean.jpg');
+    background-image:  radial-gradient(   #0000007e, rgba(245, 246, 252, 0)), url('../images/korean.jpg');
     background-repeat: no-repeat;
     background-size: 125%;
     background-position: 50% 25%;
@@ -293,7 +293,7 @@
   }
 
   .previous-pic:hover{
-    /*background-image: radial-gradient( rgba(245, 246, 252, 0), rgba(245, 246, 252, 0)), url('../images/home/koreanfestival.jpg');*/
+    /*background-image: radial-gradient( rgba(245, 246, 252, 0), rgba(245, 246, 252, 0)), url('../images/koreanfestival.jpg');*/
     
     background-size: 100%;
   }
@@ -313,7 +313,7 @@
   }
 
   .next-pic{
-    background-image:  radial-gradient( #0000007e, rgba(245, 246, 252, 0) ), url('../images/home/koreanfood.jpg');
+    background-image:  radial-gradient( #0000007e, rgba(245, 246, 252, 0) ), url('../images/koreanfood.jpg');
     background-repeat: no-repeat;
     background-size: 125%;
     background-position: center;
@@ -322,7 +322,7 @@
   }
 
   .next-pic:hover{
-    /*background-image: url('../images/home/kroeanfood.jpg');*/
+    /*background-image: url('../images/kroeanfood.jpg');*/
     background-size: 100%;
   }
 

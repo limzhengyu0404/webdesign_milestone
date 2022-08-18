@@ -120,25 +120,25 @@
 /* Activities Images Here */
 /* Chinese New Year */
 #lotus_lantern_parade{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/malaysia/bath\ infant\ buddah.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/bath\ infant\ buddah.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #exhibition_traditional_lanterns{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/malaysia/put\ kongming\ lanterns.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/put\ kongming\ lanterns.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #buddhist_culture_experiences{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/malaysia/put\ lotus\ candle.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/put\ lotus\ candle.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #grand_ornate_lanterns{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/malaysia/wesak\ procession.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/wesak\ procession.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -159,25 +159,25 @@
 }
 /* MoonCake Festival */
 #firework{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/malaysia/pusa\ for\ ramadan.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/pusa\ for\ ramadan.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #deumdol{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/malaysia/give\ green\ envelop.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/give\ green\ envelop.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #bunfire{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/malaysia/open\ house\ for\ hari\ raya.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/open\ house\ for\ hari\ raya.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #torch_lighting{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/malaysia/dress\ up\ for\ hari\ raya.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/dress\ up\ for\ hari\ raya.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -257,7 +257,7 @@
 }
 
 .previous-pic{
-    background-image:  radial-gradient( #0000007e, rgba(245, 246, 252, 0)), url('../images/home/malaysiaday.jpg');
+    background-image:  radial-gradient( #0000007e, rgba(245, 246, 252, 0)), url('../images/malaysiaday.jpg');
     background-repeat: no-repeat;
     background-size: 125%;
     background-position:center;
@@ -267,7 +267,7 @@
   }
 
   .previous-pic:hover{
-    /*background-image: radial-gradient( rgba(245, 246, 252, 0), rgba(245, 246, 252, 0)), url('../images/home/koreanfestival.jpg');*/
+    /*background-image: radial-gradient( rgba(245, 246, 252, 0), rgba(245, 246, 252, 0)), url('../images/koreanfestival.jpg');*/
     
     background-size: 100%;
   }
@@ -287,7 +287,7 @@
   }
 
   .next-pic{
-    background-image:  radial-gradient( #0000007e, rgba(245, 246, 252, 0) ), url('../images/malaysia/malaysiafood.jpg');
+    background-image:  radial-gradient( #0000007e, rgba(245, 246, 252, 0) ), url('../images/malaysiafood.jpg');
     background-repeat: no-repeat;
     background-size: 125%;
     background-position: center;
@@ -296,7 +296,7 @@
   }
 
   .next-pic:hover{
-    /*background-image: url('../images/home/kroeanfood.jpg');*/
+    /*background-image: url('../images/kroeanfood.jpg');*/
     background-size: 100%;
   }
 

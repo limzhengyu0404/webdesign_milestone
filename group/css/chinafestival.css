@@ -58,7 +58,7 @@
 
 /* Body Image */
 #body_bg{
-    background-image: url("../images/china/bg.jpg");
+    background-image: url("../images/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -117,37 +117,37 @@
 /* Activities Images Here */
 /* Chinese New Year */
 #house_cleaning{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/china/house_cleaning.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/house_cleaning.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #lion_dance{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/china/Chinese_New_Year_Lion_Dance.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/Chinese_New_Year_Lion_Dance.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #family_reunion{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/china/family_reunion.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/family_reunion.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #red_envelope{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/china/red_envelope.webp");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/red_envelope.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #ancestor{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/china/worship_ancestor.webp");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/worship_ancestor.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #firecracker{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/china/firecracker_1000x800.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/firecracker_1000x800.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -167,31 +167,31 @@
 }
 /* MoonCake Festival */
 #family_reunion_moon{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/china/family_reunion_moon.webp");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/family_reunion_moon.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #eat_mooncake{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/china/mooncake_bg.jpg");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/mooncake_bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #worship_moon{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/china/worship_moon.webp");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/worship_moon.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #appreciate_moon{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/china/appreciate_moon.webp");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/appreciate_moon.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #lantern{
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/china/lantern.webp");
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),url("../images/lantern.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

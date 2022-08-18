@@ -274,7 +274,7 @@ body {
 /*Top Heading container*/
 
 .top-background-home{
-  background-image: url(../images/home/worldmapbackground.jpg);
+  background-image: url(../images/worldmapbackground.jpg);
   background-size: cover;
   padding: 10% 5%;
 }
@@ -406,21 +406,21 @@ body {
 }
 
 .top-background-korean-culture{
-  background-image: url(../images/home/korean.jpg);
+  background-image: url(../images/korean.jpg);
   background-position: 55% 30%;
   background-size: cover;
   padding: 10% 5%;
 }
 
 .top-background-korean-food{
-  background-image: url(../images/home/koreanfood.jpg);
+  background-image: url(../images/koreanfood.jpg);
   background-position: center;
   background-size: cover;
   padding: 10% 5%;
 }
 
 .top-background-korean-festival{
-  background-image: url(../images/home/koreanfestival.jpg);
+  background-image: url(../images/koreanfestival.jpg);
   background-position: center;
   background-size: cover;
   padding: 10% 5%;
@@ -553,20 +553,20 @@ body {
 }
 
 .top-background-chinese-culture{
-  background-image: url(../images/home/china.jpg);
+  background-image: url(../images/china.jpg);
   background-position: center;
   background-size: cover;
   padding: 10% 5%;
 }
 
 .top-background-chinese-food{
-  background-image: url(../images/home/chinesefood.jpg);
+  background-image: url(../images/chinesefood.jpg);
   background-size: cover;
   padding: 10% 5%;
 }
 
 .top-background-chinese-festival{
-  background-image: url(../images/china/chinese-culture-cover.jpg);
+  background-image: url(../images/chinese-culture-cover.jpg);
   background-position: center;
   background-size: cover;
   padding: 10% 5%;
@@ -699,21 +699,21 @@ body {
 }
 
 .top-background-malaysia-culture{
-  background-image: url(../images/home/malaysiaday.jpg);
+  background-image: url(../images/malaysiaday.jpg);
   background-position: bottom;
   background-size: cover;
   padding: 10% 5%;
 }
 
 .top-background-malaysia-food{
-  background-image: url(../images/home/malaysiafood.jpg);
+  background-image: url(../images/malaysiafood.jpg);
   background-position: center;
   background-size: cover;
   padding: 10% 5%;
 }
 
 .top-background-malaysia-festival{
-  background-image: url(../images/home/malaysia.jpg);
+  background-image: url(../images/malaysia.jpg);
   background-position: center;
   background-size: cover;
   padding: 10% 5%;
@@ -846,21 +846,21 @@ body {
 }
 
 .top-background-japan-culture{
-  background-image: url(../images/home/japan2.jpg);
+  background-image: url(../images/japan2.jpg);
   background-position: center;
   background-size: cover;
   padding: 10% 5%;
 }
 
 .top-background-japan-food{
-  background-image: url(../images/home/japanfood.jpg);
+  background-image: url(../images/japanfood.jpg);
   background-position: center;
   background-size: cover;
   padding: 10% 5%;
 }
 
 .top-background-japan-festival{
-  background-image: url(../images/home/japanfestival.jpg);
+  background-image: url(../images/japanfestival.jpg);
   background-position: center;
   background-size: cover;
   padding: 10% 5%;

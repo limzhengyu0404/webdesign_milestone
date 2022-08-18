@@ -147,7 +147,7 @@
 
 /* Style the back side */
 .flip-card-back {
-  background-image: url(../images/japan/foodflip.jpg);
+  background-image: url(../images/foodflip.jpg);
   background-size: cover;
   height: 170px;
   display: flex;

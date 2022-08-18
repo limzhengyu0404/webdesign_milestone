@@ -1,5 +1,5 @@
 .previous-pic{
-    background-image:  radial-gradient(   #0000007e, rgba(245, 246, 252, 0)), url('../images/china/chinese_culture1.jpg');
+    background-image:  radial-gradient(   #0000007e, rgba(245, 246, 252, 0)), url('../images/chinese_culture1.jpg');
     background-repeat: no-repeat;
     background-size: 125%;
     background-position:center;
@@ -8,7 +8,7 @@
   }
 
   .previous-pic:hover{
-    /*background-image: radial-gradient( rgba(245, 246, 252, 0), rgba(245, 246, 252, 0)), url('../images/home/koreanfestival.jpg');*/
+    /*background-image: radial-gradient( rgba(245, 246, 252, 0), rgba(245, 246, 252, 0)), url('../images/koreanfestival.jpg');*/
     
     background-size: 100%;
   }
@@ -28,7 +28,7 @@
   }
 
   .next-pic{
-    background-image:  radial-gradient( #0000007e, rgba(245, 246, 252, 0) ), url('../images/china/mooncakes1.jpg');
+    background-image:  radial-gradient( #0000007e, rgba(245, 246, 252, 0) ), url('../images/mooncakes1.jpg');
     background-repeat: no-repeat;
     background-size: 125%;
     background-position: center;
@@ -37,7 +37,7 @@
   }
 
   .next-pic:hover{
-    /*background-image: url('../images/home/kroeanfood.jpg');*/
+    /*background-image: url('../images/kroeanfood.jpg');*/
     background-size: 100%;
   }
 

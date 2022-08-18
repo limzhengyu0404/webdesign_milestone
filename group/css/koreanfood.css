@@ -121,7 +121,7 @@ body{
   }
 
   .previous-pic{
-    background-image:  radial-gradient( #0000007e, rgba(245, 246, 252, 0)), url('../images/home/korean.jpg');
+    background-image:  radial-gradient( #0000007e, rgba(245, 246, 252, 0)), url('../images/korean.jpg');
     background-repeat: no-repeat;
     background-size: 125%;
     background-position: 50% 25%;
@@ -130,7 +130,7 @@ body{
   }
 
   .previous-pic:hover{
-    /*background-image: radial-gradient( rgba(245, 246, 252, 0), rgba(245, 246, 252, 0)), url('../images/home/koreanfestival.jpg');*/
+    /*background-image: radial-gradient( rgba(245, 246, 252, 0), rgba(245, 246, 252, 0)), url('../images/koreanfestival.jpg');*/
     
     background-size: 100%;
   }
@@ -150,7 +150,7 @@ body{
   }
 
   .next-pic{
-    background-image:  radial-gradient( #0000007e, rgba(245, 246, 252, 0) ), url('../images/home/koreanfestival.jpg');
+    background-image:  radial-gradient( #0000007e, rgba(245, 246, 252, 0) ), url('../images/koreanfestival.jpg');
     background-repeat: no-repeat;
     background-size: 125%;
     background-position: center;
@@ -159,7 +159,7 @@ body{
   }
 
   .next-pic:hover{
-    /*background-image: url('../images/home/kroeanfood.jpg');*/
+    /*background-image: url('../images/kroeanfood.jpg');*/
     background-size: 100%;
   }
 

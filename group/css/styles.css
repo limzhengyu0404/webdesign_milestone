@@ -7,7 +7,7 @@
 }
 
 .bg-home2 {
-    background-image: url(../images/home/newera.png);
+    background-image: url(../images/newera.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #B9D7EA;
@@ -165,7 +165,7 @@
 /*-----------------------------------ABOUT PAGE---------------------------------------------------*/
 .bg-about1{
     background-color: #B9D7EA;
-    background-image: url(../images/home/comma.png);
+    background-image: url(../images/comma.png);
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: 70% 35%;
@@ -173,7 +173,7 @@
 
 .bg-about2{
     background-color: #A4C5EA;
-    background-image: url(../images/home/newera.png);
+    background-image: url(../images/newera.png);
     background-repeat: no-repeat;
     background-position: center;
 }
